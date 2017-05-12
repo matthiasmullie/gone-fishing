@@ -1,0 +1,29 @@
+title: Gone Fishing
+description: My friends call me super tourist for a reason. This is an account of my travels.
+baseurl: "/"
+url: "https://www.gone-fishing.net"
+author:
+  name: Matthias Mullie
+  email: gonefishing@mullie.eu
+  twitter: matthiasmullie
+  instagram: matthiasmullie
+  gplus: https://plus.google.com/u/0/114103174273569238978
+
+markdown: kramdown
+theme: minima
+paginate: 7
+paginate_path: "/stories/page:num/"
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: "photos/large"
+    values:
+      photo: true

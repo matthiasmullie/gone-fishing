@@ -1,0 +1,152 @@
+header {
+    padding: 0;
+}
+
+footer {
+    padding: 40px 0;
+}
+
+footer .footer-nav {
+    border: none;
+}
+
+.main-full {
+    max-width: 100%;
+}
+
+/* navbar */
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-center {
+    display: inline-block;
+    float: none;
+}
+
+.page-home .navbar {
+    background: none;
+    border: none;
+}
+
+.page-home .logo {
+    padding: 150px 0;
+}
+
+.navbar,
+.navbar:hover {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.navbar-nav {
+    padding: 35px 0;
+}
+
+.navbar-header {
+    position: absolute;
+    top: 0;
+}
+
+.navbar-brand {
+    height: 100px;
+    padding: 0;
+    margin: 10px 0 !important;
+}
+
+.navbar-brand > img {
+    height: 100%;
+}
+
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar a:hover {
+    color: #e08b1d !important;
+}
+
+/* home blog listing */
+.blog-post .post-header h2 {
+    min-height: initial;
+}
+
+.page-home .blog-post img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* photo listing */
+.photo {
+    height: 300px;
+}
+
+.photo:first-of-type {
+    height: 600px;
+}
+
+.photo img,
+.fluidbox__wrap {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* blog listing */
+.blog-post.wide-post .post-cover {
+    bottom: 0;
+}
+
+.blog-post.wide-post .post-cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo:hover {
+    background-color: #e08b1d;
+}
+
+.photo:hover img {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+/* post detail */
+.blog-post.high-post .post-cover {
+    float: right;
+    margin-bottom: 30px;
+}
+
+.load-more-link i {
+    margin: 0;
+    color: inherit;
+}
+
+span.load-more-link {
+    color: #e08b1d;
+}
+
+span.load-more-link.inactive {
+    color: #ccc;
+}
+
+.post-footer .socials-post li a i.fa-google-plus,
+.main-sidebar .widget-about .socials-about li a i.fa-google-plus {
+    background: #d34836;
+}
+
+.post-content .also-like .also-like-box {
+    padding-left: 180px;
+}
+
+.post-content .also-like .also-like-box img {
+    width: 160px;
+    height: 110px;
+    object-fit: cover;
+}

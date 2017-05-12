@@ -1,0 +1,22 @@
+---
+layout: page
+title: Photos
+order: 2
+---
+
+{% assign photos = site.static_files | where: "photo", true | reverse %}
+<div class="row no-margin">
+    {% for photo in photos %}
+        <div class="photo no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <a href="{{ photo.path }}">
+                <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+<script>
+$(function() {
+    $('.photo a').fluidbox();
+});
+</script>

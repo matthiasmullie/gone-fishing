@@ -1,0 +1,44 @@
+---
+layout: page
+image: /assets/images/logo-300.png
+---
+
+<div class="blog-post single-post high-post">
+    <div class="post-cover col-md-6 no-padding">
+        <img src="{{ site.baseurl }}photos/large/{{ page.image }}" alt="{{ page.title }}" />
+    </div>
+    <div class="post-content">
+        <div class="post-header">
+            <h4>{{ page.date | date_to_string }}</h4>
+            <h2>{{ page.title }}</h2>
+            <h5><span>Tags</span>: {{ page.tags | array_to_sentence_string }}</h5>
+        </div>
+
+        {{ content | replace: "<!-- more -->", "" }}
+
+        <div class="post-footer">
+            <ul class="socials-post">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/large/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="row also-like">
+            <div class="col-md-12">
+                <h3 class="mini-title">You may also like</h3>
+            </div>
+
+            {% for post in site.posts limit: 4 %}
+            <div class="col-md-3">
+                <div class="also-like-box">
+                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/small/{{ post.image }}" alt="{{ post.title }}" /></a>
+                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

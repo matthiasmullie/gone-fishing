@@ -1,0 +1,60 @@
+---
+layout: home
+title: Home
+order: 0
+---
+
+<div class="row no-margin" data-tesla-plugin="masonry">
+    {% for post in site.posts limit: 8 %}
+        <div class="no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="blog-post">
+                <div class="post-cover">
+                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/small/{{ post.image }}" alt="{{ post.title }}" /></a>
+                </div>
+                <div class="post-content">
+                    <div class="post-header">
+                        <h4>{{ post.date | date_to_string }}</h4>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    </div>
+
+                    {% if post.content contains "<!-- more -->" %}
+                        {{ post.content | split: "<!-- more -->" | first }}
+                    {% else %}
+                        {{ post.content | strip_html | truncatewords: 100 }}
+                    {% endif %}
+
+                    <div class="post-footer">
+                        <a href="{{ post.url }}">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<div class="text-center">
+    <a href="/stories/" class="load-more-link">More stories <i class="fa fa-caret-right"></i></a>
+</div>
+
+<h3 class="site-title">Recent photos</h3>
+
+{% assign photos = site.static_files | where: "photo", true | reverse %}
+<div class="row no-margin">
+    {% for photo in photos limit: 7 %}
+    <div class="photo no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="{{ photo.path }}">
+            <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    $(function() {
+        $('.photo a').fluidbox();
+    });
+</script>
+
+<div class="text-center">
+    <a href="/photos/" class="load-more-link">More photos <i class="fa fa-caret-right"></i></a>
+</div>
