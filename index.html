@@ -9,7 +9,7 @@ order: 0
         <div class="no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="blog-post">
                 <div class="post-cover">
-                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/small/{{ post.image }}" alt="{{ post.title }}" /></a>
+                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" /></a>
                 </div>
                 <div class="post-content">
                     <div class="post-header">
@@ -48,12 +48,6 @@ order: 0
     </div>
     {% endfor %}
 </div>
-
-<script>
-    $(function() {
-        $('.photo a').fluidbox();
-    });
-</script>
 
 <div class="text-center">
     <a href="/photos/" class="load-more-link">More photos <i class="fa fa-caret-right"></i></a>

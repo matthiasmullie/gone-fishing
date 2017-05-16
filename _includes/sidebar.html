@@ -1,0 +1,25 @@
+<div class="sidebar">
+    <h4>Advertisement</h4>
+
+    <div class="ad adsense">
+        {% include ads-sidebar.html %}
+    </div>
+
+
+    <h4>Recent photos</h4>
+
+    {% assign photos = site.static_files | where: "photo", true | reverse %}
+    <div class="row no-margin">
+        {% for photo in photos limit: 4 %}
+        <div class="photo col-md-6 no-padding">
+            <a href="{{ photo.path }}">
+                <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="text-center">
+        <a href="/photos/" class="load-more-link">More photos <i class="fa fa-caret-right"></i></a>
+    </div>
+</div>

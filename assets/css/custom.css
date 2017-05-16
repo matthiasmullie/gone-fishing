@@ -86,7 +86,8 @@ footer .footer-nav {
     height: 300px;
 }
 
-.photo:first-of-type {
+.page-photos .photo:first-of-type,
+.page-home .photo:first-of-type {
     height: 600px;
 }
 
@@ -118,9 +119,23 @@ footer .footer-nav {
 }
 
 /* post detail */
-.blog-post.high-post .post-cover {
+.blog-post.blog-post-normal .post-cover img {
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-post.blog-post-high .post-cover {
     float: right;
     margin-bottom: 30px;
+}
+
+.blog-post .map-location {
+    margin: 0 -100px 60px;
+}
+
+.load-more-link {
+    margin: 30px auto 50px;
 }
 
 .load-more-link i {
@@ -141,12 +156,79 @@ span.load-more-link.inactive {
     background: #d34836;
 }
 
-.post-content .also-like .also-like-box {
-    padding-left: 180px;
+.post-content .also-like .also-like-box img {
+    height: 100%;
+    object-fit: cover;
 }
 
-.post-content .also-like .also-like-box img {
-    width: 160px;
-    height: 110px;
-    object-fit: cover;
+/* sidebar */
+.sidebar .photo {
+    max-height: 150px;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* about */
+.contact {
+    margin-top: 60px;
+}
+
+.contact textarea,
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(81, 81, 81, 0.2);
+}
+
+.contact textarea:focus,
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus {
+    border-bottom: 2px solid transparent;
+}
+
+.contact input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    color: #e08b1d;
+    font-size: 16px;
+    background: none;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 3px solid #fff;
+}
+
+.contact input[type="submit"]:hover {
+    border: 3px solid #e08b1d;
+}
+
+.page-about h1,
+.page-about h2,
+.page-about h3,
+.page-about h4,
+.page-about h5,
+.page-about h6 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.page-about .social-media {
+    padding-top: 10px;
+}
+
+.page-about .social-media h5 {
+    text-align: left;
+    padding: 4px 0;
 }

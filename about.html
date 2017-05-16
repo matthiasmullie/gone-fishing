@@ -1,0 +1,85 @@
+---
+layout: page
+title: About
+order: 3
+---
+
+<div class="page">
+    <div class="container">
+        <div class="full-width-image">
+            <img src="{{ site.baseurl }}assets/images/flying.jpg" alt="" />
+        </div>
+
+        <h1>Hi, I'm Matthias</h1>
+        <h6>But my friends call me super tourist</h6>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    <strong>This is not a professional travel blog!</strong>
+                    While I absolutely love to travel, I'm actually <a href="https://www.mullie.eu/contact/">a software engineer</a> and I'm equally passionate about that.
+                    And it is a lot more convenient to schedule your life around that.
+                </p>
+            </div>
+
+            <div class="col-md-8 col-sm-12">
+                <p>
+                    But I definitely love to travel. So much that my friends call me <q>super tourist</q>.
+                    I have a bucket list longer than the Greek national anthem <i>(<a href="https://en.wikipedia.org/wiki/Hymn_to_Liberty" title="Greek national anthem">at 158 stanzas!</a>)</i> and I'm barely able to rest whenever I'm somewhere new: I just need to experience everything!
+                </p>
+
+                <p>
+                    I love to marvel at pictures of all the amazing places this wonderful planet has to offer.
+                    As I got to travel more, I also developed an interest in photography.
+                    I'm not a professional photographer by any measure, but I sure love to look back at pictures that remind me of the great times I had on earlier travels.
+                </p>
+
+                <p>
+                    This blog is intended as a recollection of my past adventures, a motivation to keep discovering the world, and - hopefully - a source of inspiration and ideas for others.
+                </p>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <img src="{{ site.baseurl }}assets/images/camera.png" alt="Panasonic GX85 with Olympus 12-40mm f/2.4 Pro" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contact">
+            <h4>Contact</h4>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-12 social-media">
+                    <h5><i class="fa fa-rss"></i> <a href="https://www.mullie.eu">www.mullie.eu</a></h5>
+                    <h5><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/{{ site.author.instagram }}">matthiasmullie</a></h5>
+                    <h5><i class="fa fa-twitter"></i> <a href="https://www.twitter.com/{{ site.author.twitter }}">matthiasmullie</a></h5>
+                </div>
+
+                <div class="col-md-9 col-sm-12">
+                    <form action="http://getsimpleform.com/messages?form_api_token=c900d9cf0042dbe6481faecc23e514fd" method="post" class="form">
+                        <div class="col-md-6">
+                            <input type="text" name="name" placeholder="Your name" required="required">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" placeholder="Your email" required="required">
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <textarea name="message" placeholder="Message" required="required" rows="1"></textarea>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="map-location">
+            <h4>Home</h4>
+
+            <div id="map" data-lat="50.809488" data-lon="3.324494"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
+        </div>
+    </div>
+</div>
