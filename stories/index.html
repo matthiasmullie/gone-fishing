@@ -1,0 +1,64 @@
+---
+layout: page
+title: Stories
+order: 1
+---
+
+<div class="row no-margin main-bg">
+    <div class="no-padding col-lg-9">
+        {% for post in paginator.posts %}
+            <div class="blog-post wide-post">
+                <div class="post-cover">
+                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" /></a>
+                </div>
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    </div>
+
+                    {% if post.content contains "<!-- more -->" %}
+                        {{ post.content | replace: "<!-- ads -->", "" | split: "<!-- more -->" | first | strip_html }}
+                    {% else %}
+                        {{ post.content | replace: "<!-- ads -->", "" | strip_html | truncatewords: 100 }}
+                    {% endif %}
+
+                    <div class="post-footer">
+                        <a href="{{ post.url }}">Read more</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="text-center">
+            {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                    <a href="{{ site.paginate_path | replace: '//', '/' | replace: 'page:num/', '' }}" rel="prev" class="load-more-link"><i class="fa fa-caret-left"></i></a>
+                {% else %}
+                    <a href="{{ paginator.previous_page_path }}" rel="prev" class="load-more-link"><i class="fa fa-caret-left"></i></a>
+                {% endif %}
+            {% else %}
+                <span class="inactive load-more-link"><i class="fa fa-caret-left"></i></span>
+            {% endif %}
+
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <span class="load-more-link">{{ page }}</span>
+                {% elsif page == 1 %}
+                    <a href="{{ site.paginate_path | replace: '//', '/' | replace: 'page:num/', '' }}" class="load-more-link">{{ page }}</a>
+                {% else %}
+                    <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}" class="load-more-link">{{ page }}</a>
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" rel="next" class="load-more-link"><i class="fa fa-caret-right"></i></a>
+            {% else %}
+                <span class="inactive load-more-link"><i class="fa fa-caret-right"></i></span>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        {% include sidebar.html %}
+    </div>
+</div>
