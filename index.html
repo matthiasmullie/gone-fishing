@@ -13,14 +13,13 @@ order: 0
                 </div>
                 <div class="post-content">
                     <div class="post-header">
-                        <h4>{{ post.date | date_to_string }}</h4>
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     </div>
 
                     {% if post.content contains "<!-- more -->" %}
-                        {{ post.content | split: "<!-- more -->" | first }}
+                        {{ post.content | replace: "<!-- ads -->", "" | split: "<!-- more -->" | first | strip_html }}
                     {% else %}
-                        {{ post.content | strip_html | truncatewords: 100 }}
+                        {{ post.content | replace: "<!-- ads -->", "" | strip_html | truncatewords: 100 }}
                     {% endif %}
 
                     <div class="post-footer">

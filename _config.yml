@@ -13,7 +13,7 @@ maps:
 
 markdown: kramdown
 theme: minima
-paginate: 7
+paginate: 10
 paginate_path: "/stories/page:num/"
 gems:
   - jekyll-feed
