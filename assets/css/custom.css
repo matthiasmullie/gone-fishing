@@ -51,16 +51,19 @@ a {
 .navbar-header {
     position: absolute;
     top: 0;
+    bottom: 0;
 }
 
 .navbar-brand {
-    height: 100px;
     padding: 0;
-    margin: 10px 0 !important;
+    height: 100%;
+    width: auto;
 }
 
 .navbar-brand > img {
     height: 100%;
+    width: auto;
+    padding: 5px;
 }
 
 .navbar a {
