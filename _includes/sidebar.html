@@ -12,7 +12,7 @@
     <div class="row no-margin">
         {% for photo in photos limit: 4 %}
         <div class="photo col-md-6 no-padding">
-            <a href="{{ photo.path }}">
+            <a href="{{ photo.path }}" class="lightbox">
                 <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
             </a>
         </div>

@@ -8,7 +8,7 @@ order: 2
 <div class="row no-margin">
     {% for photo in photos %}
         <div class="photo no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <a href="{{ photo.path }}">
+            <a href="{{ photo.path }}" class="lightbox">
                 <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
             </a>
         </div>

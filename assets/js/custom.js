@@ -105,13 +105,11 @@ $(document).ready(function () {
         return false;
     });
 
-    $(function() {
-        $('.photo a').fluidbox();
-    });
+    $('a.lightbox').fluidbox();
+
+    $('textarea').autoExpand({ animationTime: 20 });
 
     if ($('#map').length) {
         google.maps.event.addDomListener(window, 'load', loadMap);
     }
-
-    $('textarea').autoExpand({ animationTime: 20 });
 });
