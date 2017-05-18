@@ -19,7 +19,7 @@ image: /assets/images/logo-300.png
             <div class="post-content">
                 <div class="post-header">
                     <h2>{{ page.title }}</h2>
-                    <h5>{{ page.tags | array_to_sentence_string }}</h5>
+                    <h5><span>Tags</span>: {% include tags.html tags=page.tags %}</h5>
                 </div>
 
                 {% capture ads %}
@@ -49,14 +49,7 @@ image: /assets/images/logo-300.png
                         <h3 class="mini-title">You may also like</h3>
                     </div>
 
-                    {% for post in site.posts limit: 4 %}
-                    <div class="col-md-3">
-                        <div class="also-like-box">
-                            <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" /></a>
-                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                        </div>
-                    </div>
-                    {% endfor %}
+                    {% include related.html current=page limit=4 %}
                 </div>
             </div>
         </div>

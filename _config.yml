@@ -18,6 +18,7 @@ paginate_path: "/stories/page:num/"
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-archives
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -29,3 +30,11 @@ defaults:
       path: "photos/large"
     values:
       photo: true
+
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: tag
+  parmalinks:
+    tag: '/tag/:name'

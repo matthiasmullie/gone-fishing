@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<h3 class="site-title">{{ page.type }}: {{ page.title }}</h3>
+
+<div class="row no-margin main-bg">
+    <div class="no-padding col-lg-9">
+        {% for post in page.posts %}
+        <div class="blog-post wide-post">
+            <div class="post-cover">
+                <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" /></a>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h5><span>Tags</span>: {% include tags.html tags=post.tags %}</h5>
+                </div>
+
+                {% if post.content contains "<!-- more -->" %}
+                {{ post.content | replace: "<!-- ads -->", "" | split: "<!-- more -->" | first | strip_html }}
+                {% else %}
+                {{ post.content | replace: "<!-- ads -->", "" | strip_html | truncatewords: 100 }}
+                {% endif %}
+
+                <div class="post-footer">
+                    <a href="{{ post.url }}">Read more</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="col-lg-3">
+        {% include sidebar.html %}
+    </div>
+</div>

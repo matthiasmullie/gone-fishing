@@ -186,6 +186,10 @@ span.load-more-link.inactive {
     height: 100%;
 }
 
+.blog-post .post-header h5 {
+    color: inherit;
+}
+
 /* sidebar */
 .sidebar .photo {
     max-height: 150px;

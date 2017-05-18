@@ -1,0 +1,49 @@
+{% assign related = '' | split: '' %}
+
+{% for tag in include.current.tags %}
+    {% comment %}store ids instead of post objects: much much faster to generate!{% endcomment %}
+    {% assign ids = site.tags[tag] | map: 'id' %}
+
+    {% for id in ids limit: include.limit %}
+        {% if id != include.current.id %}
+            {% assign related = related | push: id %}
+        {% endif %}
+    {% endfor %}
+
+    {% comment %}get rid of duplicates{% endcomment %}
+    {% assign related = related | uniq %}
+
+    {% comment %}quit early if we have enough already{% endcomment %}
+    {% if related.size >= include.limit %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+    find most recent posts if we don't have enough matching tags
+    we need to find at least the amount that we want to display + 1, to make
+    sure that we have enough posts to show - we can't narrow it down any further
+    at this point since the most recent posts may already be included because of
+    matching tags
+{% endcomment %}
+{% if related.size < include.limit %}
+    {% for post in site.posts limit: include.limit %}
+        {% if post.id != include.current.id %}
+            {% assign related = related | push: post.id %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% comment %}get rid of duplicates & leftovers{% endcomment %}
+{% assign related = related | uniq | slice: 0, 4 %}
+
+{% for post in site.posts %}
+    {% if related contains post.id %}
+        <div class="col-md-3">
+            <div class="also-like-box">
+                <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" /></a>
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}
