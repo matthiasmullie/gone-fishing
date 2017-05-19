@@ -207,6 +207,10 @@ span.load-more-link.inactive {
     padding-top: 30px;
 }
 
+.sidebar .load-more-link {
+    margin-bottom: 0;
+}
+
 /* about */
 .contact {
     margin-top: 60px;
