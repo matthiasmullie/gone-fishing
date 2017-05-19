@@ -76,19 +76,30 @@ $(document).ready(function () {
             }
         ],
         node = document.getElementById('map'),
-        coordinate = new google.maps.LatLng(node.getAttribute('data-lat'), node.getAttribute('data-lon')),
+        center = new google.maps.LatLng($(node).data('center')[0], $(node).data('center')[1]),
+        zoom = $(node).data('zoom'),
+        coordinates = $(node).data('coordinates'),
         options = {
-            center: coordinate,
-            zoom: 5,
+            center: center,
+            zoom: parseInt(zoom),
             styles: styles,
             scrollwheel: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         },
         map = new google.maps.Map(node, options),
-        marker = new google.maps.Marker({
-            position: coordinate,
-            map: map
-        });
+        coordinate,
+        i,
+        icon;
+
+        for (i in coordinates) {
+            coordinate = coordinates[i];
+            icon = 'http://maps.google.com/mapfiles/ms/icons/' + (i === '0' ? 'red-dot' : 'blue' ) + '.png';
+            new google.maps.Marker({
+                position: new google.maps.LatLng(coordinate[0], coordinate[1]),
+                map: map,
+                icon: icon
+            });
+        }
     }
 
     $('.responsive-menu').on('click', function (e) {

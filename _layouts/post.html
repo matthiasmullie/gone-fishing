@@ -37,9 +37,9 @@ image: /assets/images/logo-300.png
                     </ul>
                 </div>
 
-                {% if page.lat and page.lon %}
+                {% if page.coordinate %}
                 <div class="map-location">
-                    <div id="map" data-lat="{{ page.lat }}" data-lon="{{ page.lon }}"></div>
+                    <div id="map" data-coordinates="[{{ page.coordinate | jsonify }}]" data-center="{{ page.coordinate | jsonify }}" data-zoom="5"></div>
                     <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
                 </div>
                 {% endif %}

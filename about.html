@@ -76,9 +76,10 @@ order: 3
 
     <div class="container">
         <div class="map-location">
-            <h4>Home</h4>
+            <h4>Travel map</h4>
 
-            <div id="map" data-lat="50.809488" data-lon="3.324494"></div>
+            {% assign home = '' | split: '' | push: 50.809488 | push: 3.324494 %}
+            <div id="map" data-coordinates="{{ site.posts | map: 'coordinate' | unshift: home | jsonify }}" data-center="{{ home | jsonify }}" data-zoom="5"></div>
             <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
         </div>
     </div>
