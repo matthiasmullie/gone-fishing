@@ -190,6 +190,10 @@ span.load-more-link.inactive {
     color: inherit;
 }
 
+img.pano {
+    width: 100%;
+}
+
 /* sidebar */
 .sidebar .photo {
     max-height: 150px;
