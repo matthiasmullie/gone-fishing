@@ -19,6 +19,8 @@ order: 1
 
                     {% if post.content contains "<!-- more -->" %}
                         {{ post.content | replace: "<!-- ads -->", "" | split: "<!-- more -->" | first | strip_html }}
+                    {% elsif post.description %}
+                        {{ post.description | strip_html }}
                     {% else %}
                         {{ post.content | replace: "<!-- ads -->", "" | strip_html | truncatewords: 100 }}
                     {% endif %}
