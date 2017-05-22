@@ -8,8 +8,8 @@ image: /assets/images/logo-300.png
         <div class="no-padding col-lg-9">
             <div class="post-cover col-md-5 no-padding">
                 {% if page.video %}
-                <div class="video">
-                    <iframe src="{{ page.video }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="{{ page.video }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 
                 {% else %}
