@@ -126,6 +126,12 @@ a {
 }
 
 /* post detail */
+.blog-post .post-header h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 6px;
+}
+
 .blog-post.blog-post-normal .post-cover img {
     max-height: 700px;
     width: 100%;
