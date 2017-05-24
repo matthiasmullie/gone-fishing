@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>https://www.gone-fishing.net/stories/living-it-up-in-monaco/</loc>
+    <lastmod>2014-07-30T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gone-fishing.net/stories/what-to-do-in-nice/</loc>
     <lastmod>2014-07-28T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
@@ -59,28 +65,28 @@
   
   <url>
     <loc>https://www.gone-fishing.net/about/</loc>
-    <lastmod>2017-05-24T08:10:58+00:00</lastmod>
+    <lastmod>2017-05-24T20:38:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/</loc>
-    <lastmod>2017-05-24T08:10:58+00:00</lastmod>
+    <lastmod>2017-05-24T20:38:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/stories/</loc>
-    <lastmod>2017-05-24T08:10:58+00:00</lastmod>
+    <lastmod>2017-05-24T20:38:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/photos/</loc>
-    <lastmod>2017-05-24T08:10:58+00:00</lastmod>
+    <lastmod>2017-05-24T20:38:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
