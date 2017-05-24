@@ -19,6 +19,7 @@ gems:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
