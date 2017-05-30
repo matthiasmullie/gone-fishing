@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>https://www.gone-fishing.net/stories/understanding-san-francisco/</loc>
+    <lastmod>2015-01-25T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gone-fishing.net/stories/what-happens-in-vegas/</loc>
     <lastmod>2014-11-10T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
@@ -77,28 +83,28 @@
   
   <url>
     <loc>https://www.gone-fishing.net/about/</loc>
-    <lastmod>2017-05-30T08:40:00+00:00</lastmod>
+    <lastmod>2017-05-30T18:54:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/</loc>
-    <lastmod>2017-05-30T08:40:00+00:00</lastmod>
+    <lastmod>2017-05-30T18:54:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/stories/</loc>
-    <lastmod>2017-05-30T08:40:00+00:00</lastmod>
+    <lastmod>2017-05-30T18:54:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/photos/</loc>
-    <lastmod>2017-05-30T08:40:00+00:00</lastmod>
+    <lastmod>2017-05-30T18:54:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
