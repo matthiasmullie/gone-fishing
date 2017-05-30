@@ -77,7 +77,7 @@ a {
     color: #e08b1d !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .navbar-brand {
         height: 50px;
     }
