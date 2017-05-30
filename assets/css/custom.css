@@ -77,6 +77,12 @@ a {
     color: #e08b1d !important;
 }
 
+@media (max-width: 768px) {
+    .navbar-brand {
+        height: 50px;
+    }
+}
+
 /* home blog listing */
 .blog-post .post-header h2 {
     min-height: initial;
