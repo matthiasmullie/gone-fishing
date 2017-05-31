@@ -71,6 +71,7 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff !important;
+    padding: 10px 25px !important;
 }
 
 .navbar a:hover {
@@ -271,4 +272,13 @@ img.pano {
 
 .page-about #map {
     height: 700px;
+}
+
+/* 404 page */
+.page-404-not-found .row {
+    padding: 50px 0 75px;
+}
+
+.page-404-not-found .logo {
+    padding-top: 30px;
 }
