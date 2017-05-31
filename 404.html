@@ -1,0 +1,32 @@
+---
+layout: page
+title: 404 Not Found
+order: -1
+permalink: /404.html
+---
+
+<div class="row main-bg">
+    <div class="col-lg-12 text-center">
+        <h2>Sorry!</h2>
+        <p>The page you were looking for could not be found.</p>
+
+        <div class="logo">
+            <a href="{{ site.baseurl }}" title="Home"><img src="{{ site.baseurl }}assets/images/logo-200.png" alt="logo" /></a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <h3 class="site-title">How about some travel inspiration?</h3>
+
+    {% for post in site.posts limit: 4 %}
+    <div class="no-padding col-lg-3 col-md-6 col-xs-12 text-center">
+        <div class="photo">
+            <a href="{{ post.url }}">
+                <img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" />
+            </a>
+        </div>
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    </div>
+    {% endfor %}
+</div>

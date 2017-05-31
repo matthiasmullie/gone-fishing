@@ -57,7 +57,7 @@
     {% endif %}
 </head>
 
-<body class="page-{{ page.title | downcase | url_encode }}">
+<body class="page-{{ page.title | downcase | replace: ' ', '-' | url_encode }}">
     {% include ga.html %}
 
     {{ content }}
