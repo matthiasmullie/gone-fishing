@@ -3,7 +3,7 @@
     <title>Gone Fishing</title>
     <link href="https://www.gone-fishing.net/atom.xml" rel="self"/>
     <link href="https://www.gone-fishing.net/"/>
-    <updated>2017-06-06T16:01:38+00:00</updated>
+    <updated>2017-06-06T16:52:19+00:00</updated>
     <id>https://www.gone-fishing.net</id>
     <author>
         <name>Matthias Mullie</name>
@@ -12,9 +12,9 @@
     
     <entry>
         <title>Wine and dine in Lyon</title>
-        <link href="https://www.gone-fishing.net/stories/wine-and-dine-in-lyon/"/>
+        <link href="https://www.gone-fishing.net/travels/wine-and-dine-in-lyon/"/>
         <updated>2015-05-29T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/wine-and-dine-in-lyon</id>
+        <id>https://www.gone-fishing.net/travels/wine-and-dine-in-lyon</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -137,14 +137,14 @@
     
     <entry>
         <title>Understanding San Francisco</title>
-        <link href="https://www.gone-fishing.net/stories/understanding-san-francisco/"/>
+        <link href="https://www.gone-fishing.net/travels/understanding-san-francisco/"/>
         <updated>2015-01-25T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/understanding-san-francisco</id>
+        <id>https://www.gone-fishing.net/travels/understanding-san-francisco</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
-            While it's not as impressive as &lt;a href=&quot;/stories/5-new-york-city-highlights/&quot;&gt;New York&lt;/a&gt;, not as famous as Los Angeles, etc., I would recommend it over any other US city I've been to so far!
-            It is unique in many ways, it has a monotonous good weather you can rely on, a ton of those charming Victorian houses and a long list of attractions, from the Golden Gate Bridge to &lt;a href=&quot;/stories/behind-bars-in-alcatraz/&quot;&gt;Alcatraz&lt;/a&gt;.
+            While it's not as impressive as &lt;a href=&quot;/travels/5-new-york-city-highlights/&quot;&gt;New York&lt;/a&gt;, not as famous as Los Angeles, etc., I would recommend it over any other US city I've been to so far!
+            It is unique in many ways, it has a monotonous good weather you can rely on, a ton of those charming Victorian houses and a long list of attractions, from the Golden Gate Bridge to &lt;a href=&quot;/travels/behind-bars-in-alcatraz/&quot;&gt;Alcatraz&lt;/a&gt;.
 
             
 
@@ -388,9 +388,9 @@
     
     <entry>
         <title>What happens in Vegas&hellip;</title>
-        <link href="https://www.gone-fishing.net/stories/what-happens-in-vegas/"/>
+        <link href="https://www.gone-fishing.net/travels/what-happens-in-vegas/"/>
         <updated>2014-11-10T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/what-happens-in-vegas</id>
+        <id>https://www.gone-fishing.net/travels/what-happens-in-vegas</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -531,9 +531,9 @@
     
     <entry>
         <title>Saint-Tropez: small town with a big name</title>
-        <link href="https://www.gone-fishing.net/stories/saint-tropez-small-town-big-a-big-name/"/>
+        <link href="https://www.gone-fishing.net/travels/saint-tropez-small-town-big-a-big-name/"/>
         <updated>2014-07-31T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/saint-tropez-small-town-big-a-big-name</id>
+        <id>https://www.gone-fishing.net/travels/saint-tropez-small-town-big-a-big-name</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -586,9 +586,9 @@
     
     <entry>
         <title>Living it up in Monaco</title>
-        <link href="https://www.gone-fishing.net/stories/living-it-up-in-monaco/"/>
+        <link href="https://www.gone-fishing.net/travels/living-it-up-in-monaco/"/>
         <updated>2014-07-30T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/living-it-up-in-monaco</id>
+        <id>https://www.gone-fishing.net/travels/living-it-up-in-monaco</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;div class=&quot;pull-right col-md-6 col-sm-12&quot;&gt;
@@ -598,7 +598,7 @@
         &lt;/div&gt;
 
         &lt;p&gt;
-            In a previous post, I said I'd pick &lt;a href=&quot;/stories/what-to-do-in-nice/&quot;&gt;Nice&lt;/a&gt; if I had to choose a place to live in the French Riviera.
+            In a previous post, I said I'd pick &lt;a href=&quot;/travels/what-to-do-in-nice/&quot;&gt;Nice&lt;/a&gt; if I had to choose a place to live in the French Riviera.
             Actually, I'd prefer Monaco even more, because it would mean I'd be wealthy beyond belief.
             Property prices are through the roof here, with the average real estate agency selling apartments anywhere in the range of 1 to 20 million euros.
 
@@ -654,13 +654,13 @@
     
     <entry>
         <title>What to do in Nice?</title>
-        <link href="https://www.gone-fishing.net/stories/what-to-do-in-nice/"/>
+        <link href="https://www.gone-fishing.net/travels/what-to-do-in-nice/"/>
         <updated>2014-07-28T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/what-to-do-in-nice</id>
+        <id>https://www.gone-fishing.net/travels/what-to-do-in-nice</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
-            After our visit to &lt;a href=&quot;/stories/is-there-more-to-cannes-than-the-film-festival/&quot;&gt;Cannes&lt;/a&gt;, Nice was the next stop on our French Riviera tour.
+            After our visit to &lt;a href=&quot;/travels/is-there-more-to-cannes-than-the-film-festival/&quot;&gt;Cannes&lt;/a&gt;, Nice was the next stop on our French Riviera tour.
             We only had a day to spend there, and I really wished we'd had more time.
         &lt;/p&gt;
     &lt;/div&gt;
@@ -716,9 +716,9 @@
     
     <entry>
         <title>Is there more to Cannes than the film festival?</title>
-        <link href="https://www.gone-fishing.net/stories/is-there-more-to-cannes-than-the-film-festival/"/>
+        <link href="https://www.gone-fishing.net/travels/is-there-more-to-cannes-than-the-film-festival/"/>
         <updated>2014-07-27T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/is-there-more-to-cannes-than-the-film-festival</id>
+        <id>https://www.gone-fishing.net/travels/is-there-more-to-cannes-than-the-film-festival</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -783,9 +783,9 @@
     
     <entry>
         <title>Hiking Zürich's Üetliberg</title>
-        <link href="https://www.gone-fishing.net/stories/hiking-zurich-uetliberg/"/>
+        <link href="https://www.gone-fishing.net/travels/hiking-zurich-uetliberg/"/>
         <updated>2014-05-11T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/hiking-zurich-uetliberg</id>
+        <id>https://www.gone-fishing.net/travels/hiking-zurich-uetliberg</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -842,9 +842,9 @@
     
     <entry>
         <title>5 New York City highlights</title>
-        <link href="https://www.gone-fishing.net/stories/5-new-york-city-highlights/"/>
+        <link href="https://www.gone-fishing.net/travels/5-new-york-city-highlights/"/>
         <updated>2013-09-23T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/5-new-york-city-highlights</id>
+        <id>https://www.gone-fishing.net/travels/5-new-york-city-highlights</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -1042,7 +1042,7 @@
         &lt;p&gt;
             The audio tour disappointed. Then again, I could've expected that.
             There's not too much history here, and I didn't really care too much for all the details on how this was built.
-            I guess the excellent &lt;a href=&quot;/stories/behind-bars-in-alcatraz/&quot;&gt;Alcatraz&lt;/a&gt; tour I'd been on in San Francisco had given me unrealistic expectations.
+            I guess the excellent &lt;a href=&quot;/travels/behind-bars-in-alcatraz/&quot;&gt;Alcatraz&lt;/a&gt; tour I'd been on in San Francisco had given me unrealistic expectations.
         &lt;/p&gt;
 
         &lt;p&gt;
@@ -1101,9 +1101,9 @@
     
     <entry>
         <title>Yosemite Valley is stunning</title>
-        <link href="https://www.gone-fishing.net/stories/yosemite-valley-is-stunning/"/>
+        <link href="https://www.gone-fishing.net/travels/yosemite-valley-is-stunning/"/>
         <updated>2013-09-14T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/yosemite-valley-is-stunning</id>
+        <id>https://www.gone-fishing.net/travels/yosemite-valley-is-stunning</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -1184,9 +1184,9 @@
     
     <entry>
         <title>Something for everyone in Amsterdam</title>
-        <link href="https://www.gone-fishing.net/stories/something-for-everyone-in-amsterdam/"/>
+        <link href="https://www.gone-fishing.net/travels/something-for-everyone-in-amsterdam/"/>
         <updated>2013-05-27T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/something-for-everyone-in-amsterdam</id>
+        <id>https://www.gone-fishing.net/travels/something-for-everyone-in-amsterdam</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -1259,9 +1259,9 @@
     
     <entry>
         <title>I flew over San Francisco, by myself</title>
-        <link href="https://www.gone-fishing.net/stories/i-flew-over-san-francisco/"/>
+        <link href="https://www.gone-fishing.net/travels/i-flew-over-san-francisco/"/>
         <updated>2012-09-16T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/i-flew-over-san-francisco</id>
+        <id>https://www.gone-fishing.net/travels/i-flew-over-san-francisco</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -1306,9 +1306,9 @@
     
     <entry>
         <title>Getting sunburnt in Cyprus</title>
-        <link href="https://www.gone-fishing.net/stories/getting-sunburnt-in-cyprus/"/>
+        <link href="https://www.gone-fishing.net/travels/getting-sunburnt-in-cyprus/"/>
         <updated>2012-08-10T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/getting-sunburnt-in-cyprus</id>
+        <id>https://www.gone-fishing.net/travels/getting-sunburnt-in-cyprus</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
@@ -1389,9 +1389,9 @@
     
     <entry>
         <title>Behind bars in Alcatraz</title>
-        <link href="https://www.gone-fishing.net/stories/behind-bars-in-alcatraz/"/>
+        <link href="https://www.gone-fishing.net/travels/behind-bars-in-alcatraz/"/>
         <updated>2012-05-27T00:00:00+00:00</updated>
-        <id>https://www.gone-fishing.net/stories/behind-bars-in-alcatraz</id>
+        <id>https://www.gone-fishing.net/travels/behind-bars-in-alcatraz</id>
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;p&gt;
