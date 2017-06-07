@@ -97,7 +97,8 @@ $(document).ready(function () {
             new google.maps.Marker({
                 position: new google.maps.LatLng(coordinate[0], coordinate[1]),
                 map: map,
-                icon: icon
+                icon: icon,
+                zIndex: coordinates.length - parseInt(i)
             });
         }
     }
