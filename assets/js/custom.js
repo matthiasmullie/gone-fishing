@@ -116,7 +116,9 @@ $(document).ready(function () {
         return false;
     });
 
-    $('a.lightbox').fluidbox();
+    $('a.lightbox').fluidbox({
+        immediateOpen: true
+    });
 
     $('textarea').autoExpand({ animationTime: 20 });
 
