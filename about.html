@@ -71,34 +71,32 @@ order: 3
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="map-location">
-            <h4>Travel map</h4>
-
-            {% assign ardeche = '' | split: '' | push: 44.759629 | push: 4.562443 %}
-            {% assign chamonix = '' | split: '' | push: 45.923697 | push: 6.869433 %}
-            {% assign vannes = '' | split: '' | push: 47.658236 | push: -2.760847 %}
-            {% assign paris = '' | split: '' | push: 48.856614 | push: 2.352222 %}
-            {% assign bardolino = '' | split: '' | push: 45.531256 | push: 10.748857 %}
-            {% assign venice = '' | split: '' | push: 45.440847 | push: 12.315515 %}
-            {% assign leeuwarden = '' | split: '' | push: 53.201233 | push: 5.799913 %}
-            {% assign lapineda = '' | split: '' | push: 41.074315 | push: 1.178223 %}
-            {% assign berlin = '' | split: '' | push: 52.520007 | push: 13.404954 %}
-            {% assign columbia = '' | split: '' | push: 39.203714 | push: -76.861046 %}
-            {% assign luxemburg = '' | split: '' | push: 49.815273 | push: 6.129583 %}
-            {% assign leuven = '' | split: '' | push: 50.879844 | push: 4.700518 %}
-            {% assign dehaan = '' | split: '' | push: 51.283878 | push: 3.063494 %}
-            {% assign vielsalm = '' | split: '' | push: 50.284017 | push: 5.914690 %}
-            {% assign mouzaive = '' | split: '' | push: 49.853790 | push: 4.963180 %}
-            {% assign vossemeren = '' | split: '' | push: 51.255469 | push: 5.327299 %}
-            {% assign home = '' | split: '' | push: 50.809488 | push: 3.324494 %}
-
-            {% assign coordinates = site.posts | map: 'coordinate' | unshift: ardeche | unshift: chamonix | unshift: vannes | unshift: paris | unshift: bardolino | unshift: venice | unshift: leeuwarden | unshift: lapineda | unshift: berlin | unshift: luxemburg | unshift: columbia | unshift: leuven | unshift: dehaan | unshift: vielsalm | unshift: mouzaive | unshift: vossemeren | unshift: home %}
-            <div id="map" data-coordinates="{{ coordinates | jsonify }}" data-center="{{ home | jsonify }}" data-zoom="5"></div>
-            <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
+            <div class="map-location">
+                <h4>Travel map</h4>
+            </div>
         </div>
     </div>
 </div>
+
+{% assign ardeche = '' | split: '' | push: 44.759629 | push: 4.562443 %}
+{% assign chamonix = '' | split: '' | push: 45.923697 | push: 6.869433 %}
+{% assign vannes = '' | split: '' | push: 47.658236 | push: -2.760847 %}
+{% assign paris = '' | split: '' | push: 48.856614 | push: 2.352222 %}
+{% assign bardolino = '' | split: '' | push: 45.531256 | push: 10.748857 %}
+{% assign venice = '' | split: '' | push: 45.440847 | push: 12.315515 %}
+{% assign leeuwarden = '' | split: '' | push: 53.201233 | push: 5.799913 %}
+{% assign lapineda = '' | split: '' | push: 41.074315 | push: 1.178223 %}
+{% assign berlin = '' | split: '' | push: 52.520007 | push: 13.404954 %}
+{% assign columbia = '' | split: '' | push: 39.203714 | push: -76.861046 %}
+{% assign luxemburg = '' | split: '' | push: 49.815273 | push: 6.129583 %}
+{% assign leuven = '' | split: '' | push: 50.879844 | push: 4.700518 %}
+{% assign dehaan = '' | split: '' | push: 51.283878 | push: 3.063494 %}
+{% assign vielsalm = '' | split: '' | push: 50.284017 | push: 5.914690 %}
+{% assign mouzaive = '' | split: '' | push: 49.853790 | push: 4.963180 %}
+{% assign vossemeren = '' | split: '' | push: 51.255469 | push: 5.327299 %}
+{% assign home = '' | split: '' | push: 50.809488 | push: 3.324494 %}
+
+{% assign coordinates = site.posts | map: 'coordinate' | unshift: ardeche | unshift: chamonix | unshift: vannes | unshift: paris | unshift: bardolino | unshift: venice | unshift: leeuwarden | unshift: lapineda | unshift: berlin | unshift: luxemburg | unshift: columbia | unshift: leuven | unshift: dehaan | unshift: vielsalm | unshift: mouzaive | unshift: vossemeren | unshift: home %}
+<div id="map" data-coordinates="{{ coordinates | jsonify }}" data-center="[20, 0]" data-zoom="3"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
