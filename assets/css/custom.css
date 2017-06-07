@@ -193,6 +193,10 @@ img.pano {
     width: 100%;
 }
 
+.post-content ul {
+    padding-left: 20px;
+}
+
 /* sidebar */
 .sidebar .photo {
     max-height: 150px;
