@@ -78,7 +78,7 @@ a {
     color: #e08b1d !important;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
     .navbar-brand {
         height: 50px;
     }
@@ -148,7 +148,12 @@ a {
 .blog-post.blog-post-high .post-cover {
     float: right;
     margin-bottom: 30px;
-    margin-left: 30px;
+}
+
+@media (min-width: 992px) {
+    .blog-post.blog-post-high .post-cover {
+        margin-left: 30px;
+    }
 }
 
 .blog-post .map-location {
