@@ -148,6 +148,7 @@ a {
 .blog-post.blog-post-high .post-cover {
     float: right;
     margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .blog-post .map-location {
