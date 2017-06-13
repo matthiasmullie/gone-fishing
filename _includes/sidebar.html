@@ -1,40 +1,58 @@
 <div class="sidebar">
-    {% if page.booking %}
-    <h4>Stay here?</h4>
+    <div class="row no-margin">
+        <h4>Newsletter</h4>
 
-    <ins class="bookingaff" data-aid="1286305" data-target_aid="1286294" data-prod="dfl2" data-width="100%" data-height="auto" data-dest_id="{{ page.booking.id }}" data-dest_type="{{ page.booking.type }}" data-df_num_properties="3"></ins>
-    <script type="text/javascript">
-        (function(d, sc, u) {
-            var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = u + '?v=' + (+new Date());
-            p.parentNode.insertBefore(s,p);
-        })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
-    </script>
+        <p>
+            Stay on top of new stories!<br>
+            I don't travel as much as I'd like, so <strong>I won't spam you</strong>.
+        </p>
+        {% include newsletter.html %}
+    </div>
+
+
+    {% if page.booking %}
+    <div class="row no-margin">
+        <h4>Stay here?</h4>
+
+        <ins class="bookingaff" data-aid="1286305" data-target_aid="1286294" data-prod="dfl2" data-width="100%" data-height="auto" data-dest_id="{{ page.booking.id }}" data-dest_type="{{ page.booking.type }}" data-df_num_properties="3"></ins>
+        <script type="text/javascript">
+            (function(d, sc, u) {
+                var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = u + '?v=' + (+new Date());
+                p.parentNode.insertBefore(s,p);
+            })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+        </script>
+    </div>
     {% endif %}
 
-    <h4>Recent photos</h4>
 
-    {% assign photos = site.static_files | where: "photo", true | reverse %}
     <div class="row no-margin">
-        {% for photo in photos limit: 4 %}
-        <div class="photo col-md-6 no-padding">
-            <a href="{{ photo.path }}" class="lightbox">
-                <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
-            </a>
+        <h4>Recent photos</h4>
+
+        {% assign photos = site.static_files | where: "photo", true | reverse %}
+        <div class="row no-margin">
+            {% for photo in photos limit: 4 %}
+            <div class="photo col-md-6 no-padding">
+                <a href="{{ photo.path }}" class="lightbox">
+                    <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
+                </a>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
+
+        <div class="text-center">
+            <a href="/photos/" class="load-more-link">More photos <i class="fa fa-caret-right"></i></a>
+        </div>
     </div>
 
-    <div class="text-center">
-        <a href="/photos/" class="load-more-link">More photos <i class="fa fa-caret-right"></i></a>
-    </div>
 
+    <div class="row no-margin">
+        <h4>Advertisement</h4>
 
-    <h4>Advertisement</h4>
-
-    <div class="ad adsense">
-        {% include ads-sidebar.html %}
+        <div class="ad adsense">
+            {% include ads-sidebar.html %}
+        </div>
     </div>
 </div>
