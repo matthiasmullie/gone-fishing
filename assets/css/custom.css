@@ -208,7 +208,7 @@ img.pano {
     max-height: 150px;
 }
 
-.sidebar .row {
+.sidebar > .row {
     padding: 30px 0;
 }
 
