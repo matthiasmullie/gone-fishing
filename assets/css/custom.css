@@ -90,7 +90,7 @@ a {
 }
 
 .page-home .blog-post img {
-    height: 400px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
 }
@@ -113,7 +113,20 @@ a {
 }
 
 /* blog listing */
+.blog-post .post-footer h4, .blog-post .post-header h4 {
+    font-size: 12px;
+}
+
+.blog-post .post-footer h4 span, .blog-post .post-header h4 span {
+    padding-top: 1px;
+}
+
+.blog-post.wide-post {
+    padding-left: 40%;
+}
+
 .blog-post.wide-post .post-cover {
+    width: 40%;
     bottom: 0;
 }
 

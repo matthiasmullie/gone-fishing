@@ -126,4 +126,6 @@ $(document).ready(function () {
     if ($('#map').length) {
         google.maps.event.addDomListener(window, 'load', loadMap);
     }
+
+    $('.masonry').masonry({ horizontalOrder: true });
 });
