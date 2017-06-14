@@ -192,7 +192,7 @@ span.load-more-link.inactive {
 
 .post-header h1,
 .post-header .socials-post {
-    display: inline-block;
+    display: inline;
 }
 
 .post-header h1 {
