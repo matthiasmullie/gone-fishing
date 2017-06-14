@@ -173,6 +173,12 @@ a {
     margin: 0 -100px 60px;
 }
 
+@media (max-width: 600px) {
+    .blog-post .map-location {
+        margin: 0 -30px 60px;
+    }
+}
+
 .load-more-link {
     margin: 30px auto 50px;
 }
@@ -190,9 +196,12 @@ span.load-more-link.inactive {
     color: #ccc;
 }
 
-.post-header h1,
-.post-header .socials-post {
+.post-header h1 {
     display: inline;
+}
+
+.post-header .socials-post {
+    display: inline-block;
 }
 
 .post-header h1 {
@@ -261,6 +270,12 @@ span.load-more-link.inactive {
 
 .blog-post .ad {
     margin: 20px 0;
+}
+
+.blog-post .ad,
+.blog-post .ad ins,
+.blog-post .ad iframe {
+    max-width: 100% !important;
 }
 
 .blog-post .post-header h5 {
