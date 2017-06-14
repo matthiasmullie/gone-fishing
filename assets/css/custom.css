@@ -199,7 +199,8 @@ span.load-more-link.inactive {
     padding-right: 30px;
 }
 
-.post-header .socials-post {
+.post-header .socials-post,
+.post-footer .socials-post {
     margin: 0;
     padding: 0;
 }
