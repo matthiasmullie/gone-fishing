@@ -13,16 +13,21 @@ order: 1
                 </div>
                 <div class="post-content">
                     <div class="post-header">
+                        <h4>
+                            {{ post.date | date_to_string }}
+                            {% comment %}we assume an average reading speed of 150 wpm here{% endcomment %}
+                            <span><i class="fa fa-clock-o"></i> {{ post.content | strip_html | split: " " | size | divided_by: 150 | ceil }} min to read</span>
+                        </h4>
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <h5><span>Tags</span>: {% include tags.html tags=post.tags %}</h5>
+                        <h5><i class="fa fa-tags"></i> {% include tags.html tags=post.tags %}</h5>
                     </div>
 
                     {% if post.content contains "<!-- more -->" %}
-                        {{ post.content | replace: "<!-- ads -->", "" | split: "<!-- more -->" | first | strip_html }}
+                        {{ post.content | split: "<!-- more -->" | first | strip_html }}
                     {% elsif post.description %}
                         {{ post.description | strip_html }}
                     {% else %}
-                        {{ post.content | replace: "<!-- ads -->", "" | strip_html | truncatewords: 100 }}
+                        {{ post.content | strip_html | truncatewords: 100 }}
                     {% endif %}
 
                     <div class="post-footer">

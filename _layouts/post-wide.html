@@ -19,6 +19,11 @@ image: /assets/images/logo/gone-fishing-300.png
         <div class="no-padding col-lg-9">
             <div class="post-content">
                 <div class="post-header">
+                    <h4>
+                        {{ page.date | date_to_string }}
+                        {% comment %}we assume an average reading speed of 150 wpm here{% endcomment %}
+                        <span><i class="fa fa-clock-o"></i> {{ page.content | strip_html | split: " " | size | divided_by: 150 | ceil }} min to read</span>
+                    </h4>
                     <h1>{{ page.title }}</h1>
                     <ul class="socials-post">
                         <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
@@ -27,7 +32,7 @@ image: /assets/images/logo/gone-fishing-300.png
                         <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
                     </ul>
-                    <h5><span>Tags</span>: {% include tags.html tags=page.tags %}</h5>
+                    <h5><i class="fa fa-tags"></i> {% include tags.html tags=page.tags %}</h5>
                 </div>
 
                 {% capture ads %}
