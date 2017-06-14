@@ -173,7 +173,7 @@ a {
     margin: 0 -100px 60px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 600px) {
     .blog-post .map-location {
         margin: 0 -30px 60px;
     }
