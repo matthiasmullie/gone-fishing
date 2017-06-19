@@ -3,7 +3,7 @@
     <title>Gone Fishing</title>
     <link href="https://www.gone-fishing.net/atom.xml" rel="self"/>
     <link href="https://www.gone-fishing.net/"/>
-    <updated>2017-06-19T12:21:52+00:00</updated>
+    <updated>2017-06-19T18:25:32+00:00</updated>
     <id>https://www.gone-fishing.net</id>
     <author>
         <name>Matthias Mullie</name>
@@ -19,8 +19,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h2&gt;Whistler Blackcomb&lt;/h2&gt;
 
-        &lt;a href=&quot;/photos/large/2016-05-30-whistler-river-of-dreams.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2016-05-30-whistler-river-of-dreams.jpg&quot; alt=&quot;River of Dreams&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2016-05-30-whistler-river-of-dreams.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/large/2016-05-30-whistler-river-of-dreams.jpg&quot; alt=&quot;River of Golden Dreams&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -98,8 +98,8 @@
             But I think it's still awesome!
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/large/2016-05-31-whistler-lake-garibaldi.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2016-05-31-whistler-lake-garibaldi.jpg&quot; alt=&quot;Lake Garibaldi&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2016-05-31-whistler-lake-garibaldi.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2016-05-31-whistler-lake-garibaldi.jpg&quot; alt=&quot;Lake Garibaldi&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -153,14 +153,14 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2016-05-23-vancouver-gassy-jack.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2016-05-23-vancouver-gassy-jack.jpg&quot; alt=&quot;Gassy Jack&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2016-05-23-vancouver-gassy-jack.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-05-23-vancouver-gassy-jack.jpg&quot; alt=&quot;Gassy Jack&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2016-05-29-vancouver-art-gallery.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2016-05-29-vancouver-art-gallery.jpg&quot; alt=&quot;Vancouver Art Gallery&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2016-05-29-vancouver-art-gallery.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-05-29-vancouver-art-gallery.jpg&quot; alt=&quot;Vancouver Art Gallery&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -179,8 +179,8 @@
             The Cliffwalk is a suspended walkway that'll take you around the granite cliff above Capilano River.
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/other/2016-05-25-vancouver-capilano-suspension-bridge.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2016-05-25-vancouver-capilano-suspension-bridge.jpg&quot; alt=&quot;Capilano Suspension Bridge&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2016-05-25-vancouver-capilano-suspension-bridge.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2016-05-25-vancouver-capilano-suspension-bridge.jpg&quot; alt=&quot;Capilano Suspension Bridge&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;h2&gt;Grouse Mountain&lt;/h2&gt;
@@ -208,24 +208,24 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-4 no-padding text-center&quot;&gt;
-                &lt;a href=&quot;/photos/other/2016-05-25-vancouver-capilano-treetops-adventure.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2016-05-25-vancouver-capilano-treetops-adventure.jpg&quot; alt=&quot;Capilano Treetops Adventure&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2016-05-25-vancouver-capilano-treetops-adventure.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-05-25-vancouver-capilano-treetops-adventure.jpg&quot; alt=&quot;Capilano Treetops Adventure&quot; /&gt;
                 &lt;/a&gt;
 
                 Capilano Treetops Adventure
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding text-center&quot;&gt;
-                &lt;a href=&quot;/photos/other/2016-05-25-vancouver-grouse-gondola.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2016-05-25-vancouver-grouse-gondola.jpg&quot; alt=&quot;Grouse gondola&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2016-05-25-vancouver-grouse-gondola.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-05-25-vancouver-grouse-gondola.jpg&quot; alt=&quot;Grouse gondola&quot; /&gt;
                 &lt;/a&gt;
 
                 Grouse gondola
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding text-center&quot;&gt;
-                &lt;a href=&quot;/photos/other/2016-05-25-vancouver-grouse-grind.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2016-05-25-vancouver-grouse-grind.jpg&quot; alt=&quot;Grouse Grind&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2016-05-25-vancouver-grouse-grind.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-05-25-vancouver-grouse-grind.jpg&quot; alt=&quot;Grouse Grind&quot; /&gt;
                 &lt;/a&gt;
 
                 Random part of the Grouse Grind trail
@@ -280,20 +280,20 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-11-04-dublin-merrion-square.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-11-04-dublin-merrion-square.jpg&quot; alt=&quot;Merrion Square&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-11-04-dublin-merrion-square.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-11-04-dublin-merrion-square.jpg&quot; alt=&quot;Merrion Square&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-11-04-dublin-dublin-castle.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-11-04-dublin-dublin-castle.jpg&quot; alt=&quot;Dublin Castle&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-11-04-dublin-dublin-castle.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-11-04-dublin-dublin-castle.jpg&quot; alt=&quot;Dublin Castle&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-11-04-dublin-guinness-storehouse.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-11-04-dublin-guinness-storehouse.jpg&quot; alt=&quot;Guinness Storehouse&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-11-04-dublin-guinness-storehouse.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-11-04-dublin-guinness-storehouse.jpg&quot; alt=&quot;Guinness Storehouse&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -326,8 +326,8 @@
     &lt;/p&gt;
 
     &lt;div class=&quot;col-md-3 col-sm-12&quot;&gt;
-        &lt;a href=&quot;/photos/other/2015-08-04-lisbon-bairro-alto.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2015-08-04-lisbon-bairro-alto.jpg&quot; alt=&quot;Torre de Belém&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2015-08-04-lisbon-bairro-alto.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2015-08-04-lisbon-bairro-alto.jpg&quot; alt=&quot;Torre de Belém&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
@@ -373,14 +373,14 @@
 
     &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
         &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-08-02-lisbon.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-08-02-lisbon.jpg&quot; alt=&quot;Praça do Comércio&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-08-02-lisbon.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-08-02-lisbon.jpg&quot; alt=&quot;Praça do Comércio&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
 
         &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-08-07-lisbon-ponte-25-de-abril.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-08-07-lisbon-ponte-25-de-abril.jpg&quot; alt=&quot;Parque Eduardo VII&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-08-07-lisbon-ponte-25-de-abril.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-08-07-lisbon-ponte-25-de-abril.jpg&quot; alt=&quot;Parque Eduardo VII&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -405,20 +405,20 @@
 
     &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
         &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-08-02-lisbon-praca-do-comercio.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-08-02-lisbon-praca-do-comercio.jpg&quot; alt=&quot;Praça do Comércio&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-08-02-lisbon-praca-do-comercio.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-08-02-lisbon-praca-do-comercio.jpg&quot; alt=&quot;Praça do Comércio&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
 
         &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-08-07-lisbon-torre-de-belem.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-08-07-lisbon-torre-de-belem.jpg&quot; alt=&quot;Torre de Belém&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-08-07-lisbon-torre-de-belem.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-08-07-lisbon-torre-de-belem.jpg&quot; alt=&quot;Torre de Belém&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
 
         &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-08-08-lisbon-parque-eduardo-vii.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-08-08-lisbon-parque-eduardo-vii.jpg&quot; alt=&quot;Parque Eduardo VII&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-08-08-lisbon-parque-eduardo-vii.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-08-08-lisbon-parque-eduardo-vii.jpg&quot; alt=&quot;Parque Eduardo VII&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -431,8 +431,8 @@
         It's a pretty long walk up to the Pena National Palace, but there's a constant coming and going of carts that will take you there for a small fee.
     &lt;/p&gt;
 
-    &lt;a href=&quot;/photos/other/2015-08-04-sintra-palacio-nacional-da-pena.jpg&quot; class=&quot;lightbox&quot;&gt;
-        &lt;img src=&quot;/photos/small/2015-08-04-sintra-palacio-nacional-da-pena.jpg&quot; alt=&quot;Palácio Nacional da Pena&quot; class=&quot;pano&quot; /&gt;
+    &lt;a href=&quot;/photos/full/2015-08-04-sintra-palacio-nacional-da-pena.jpg&quot; class=&quot;lightbox&quot;&gt;
+        &lt;img src=&quot;/photos/large/2015-08-04-sintra-palacio-nacional-da-pena.jpg&quot; alt=&quot;Palácio Nacional da Pena&quot; class=&quot;pano&quot; /&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 </content>
@@ -469,8 +469,8 @@
         &lt;h2&gt;Pirámide de la Luna&lt;/h2&gt;
 
         &lt;div class=&quot;col-md-4 pull-right&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-07-20-teotihuacan-plaza-de-la-luna.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-07-20-teotihuacan-plaza-de-la-luna.jpg&quot; alt=&quot;Plaza de la Luna, as seen from the Pirámide de la Luna&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-07-20-teotihuacan-plaza-de-la-luna.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-07-20-teotihuacan-plaza-de-la-luna.jpg&quot; alt=&quot;Plaza de la Luna, as seen from the Pirámide de la Luna&quot; /&gt;
             &lt;/a&gt;
 
             Plaza de la Luna and Pirámide del Sol (as seen from the Pirámide de la Luna)
@@ -495,8 +495,8 @@
         &lt;h2&gt;Pirámide del Sol&lt;/h2&gt;
 
         &lt;div class=&quot;col-md-4 pull-right&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-07-20-teotihuacan-piramide-del-sol.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-07-20-teotihuacan-piramide-del-sol.jpg&quot; alt=&quot;Pirámide del Sol, as seen from the Ciudadela&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-07-20-teotihuacan-piramide-del-sol.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-07-20-teotihuacan-piramide-del-sol.jpg&quot; alt=&quot;Pirámide del Sol, as seen from the Ciudadela&quot; /&gt;
             &lt;/a&gt;
 
             Pirámide del Sol (as seen from the Ciudadela)
@@ -523,8 +523,8 @@
         &lt;h2&gt;Templo de Quetzalcóatl&lt;/h2&gt;
 
         &lt;div class=&quot;col-md-4 pull-right&quot;&gt;
-            &lt;a href=&quot;/photos/other/2015-07-20-teotihuacan-templo-de-quetzalcoatl.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2015-07-20-teotihuacan-templo-de-quetzalcoatl.jpg&quot; alt=&quot;Templo de Quetzalcóatl&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2015-07-20-teotihuacan-templo-de-quetzalcoatl.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2015-07-20-teotihuacan-templo-de-quetzalcoatl.jpg&quot; alt=&quot;Templo de Quetzalcóatl&quot; /&gt;
             &lt;/a&gt;
 
             Templo de Quetzalcóatl close-up
@@ -588,20 +588,20 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-07-21-mexico-city-palacio-de-bellas-artes.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-07-21-mexico-city-palacio-de-bellas-artes.jpg&quot; alt=&quot;Palacio de Bellas Artes&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-07-21-mexico-city-palacio-de-bellas-artes.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-07-21-mexico-city-palacio-de-bellas-artes.jpg&quot; alt=&quot;Palacio de Bellas Artes&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-07-17-mexico-city-alameda.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-07-17-mexico-city-alameda.jpg&quot; alt=&quot;Alameda Central park&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-07-17-mexico-city-alameda.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-07-17-mexico-city-alameda.jpg&quot; alt=&quot;Alameda Central park&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-07-17-mexico-city-museo-nacional-de-la-revolucion.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-07-17-mexico-city-museo-nacional-de-la-revolucion.jpg&quot; alt=&quot;Museo Nacional de la Revolución&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-07-17-mexico-city-museo-nacional-de-la-revolucion.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-07-17-mexico-city-museo-nacional-de-la-revolucion.jpg&quot; alt=&quot;Museo Nacional de la Revolución&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -617,8 +617,8 @@
 
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
-        &lt;a href=&quot;/photos/other/2015-07-21-mexico-city-xochimilco.jpg&quot; class=&quot;lightbox pull-right img-responsive col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2015-07-21-mexico-city-xochimilco.jpg&quot; alt=&quot;Xochimilco&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2015-07-21-mexico-city-xochimilco.jpg&quot; class=&quot;lightbox pull-right img-responsive col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2015-07-21-mexico-city-xochimilco.jpg&quot; alt=&quot;Xochimilco&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -703,28 +703,28 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-05-28-lyon-amphitheater.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-05-28-lyon-amphitheater.jpg&quot; alt=&quot;Ancient Theatre of Fourvière&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-05-28-lyon-amphitheater.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-05-28-lyon-amphitheater.jpg&quot; alt=&quot;Ancient Theatre of Fourvière&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-05-28-lyon-place-bellecour.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-05-28-lyon-place-bellecour.jpg&quot; alt=&quot;Place Bellecour&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-05-28-lyon-place-bellecour.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-05-28-lyon-place-bellecour.jpg&quot; alt=&quot;Place Bellecour&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2015-05-28-lyon-rhone.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2015-05-28-lyon-rhone.jpg&quot; alt=&quot;Left bank of the Rhône&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2015-05-28-lyon-rhone.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2015-05-28-lyon-rhone.jpg&quot; alt=&quot;Left bank of the Rhône&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-12&quot;&gt;
-        &lt;a href=&quot;/photos/other/2015-05-28-lyon-basilique.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2015-05-28-lyon-basilique.jpg&quot; alt=&quot;Fourvière basilica&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2015-05-28-lyon-basilique.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2015-05-28-lyon-basilique.jpg&quot; alt=&quot;Fourvière basilica&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -874,8 +874,8 @@
             But my favorite is definitely the top of the Twin Peaks, just about the highest point of San Francisco:
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/large/2013-09-11-san-francisco-twin-peaks.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-11-san-francisco-twin-peaks.jpg&quot; alt=&quot;San Francisco as seen from Twin Peaks&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-11-san-francisco-twin-peaks.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2013-09-11-san-francisco-twin-peaks.jpg&quot; alt=&quot;San Francisco as seen from Twin Peaks&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -948,16 +948,16 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;col-md-6 col-xs-12 text-center&quot;&gt;
-        &lt;a href=&quot;/photos/other/2015-02-01-dolores-park.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2015-02-01-dolores-park.jpg&quot; alt=&quot;San Francisco skyline, as seen from Dolores Park&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2015-02-01-san-francisco-dolores-park.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2015-02-01-san-francisco-dolores-park.jpg&quot; alt=&quot;San Francisco skyline, as seen from Dolores Park&quot; /&gt;
         &lt;/a&gt;
 
         San Francisco skyline, as seen from Dolores Park.
     &lt;/div&gt;
 
     &lt;div class=&quot;col-md-6 col-xs-12 text-center&quot;&gt;
-        &lt;a href=&quot;/photos/large/2017-01-15-san-francisco-beuna-vista-park.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2017-01-15-san-francisco-beuna-vista-park.jpg&quot; alt=&quot;Golden Gate Bridge, as seen from Buena Vista Park&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2017-01-15-san-francisco-beuna-vista-park.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2017-01-15-san-francisco-beuna-vista-park.jpg&quot; alt=&quot;Golden Gate Bridge, as seen from Buena Vista Park&quot; /&gt;
         &lt;/a&gt;
 
         Golden Gate Bridge, as seen from Buena Vista Park.
@@ -1022,8 +1022,8 @@
             Or you can opt for an Uber or Lyft for which there is no shortage of drivers in San Francisco - this is where both of those companies's headquarters are located after all.
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/large/2014-11-17-san-francisco-cable-car.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-11-17-san-francisco-cable-car.jpg&quot; alt=&quot;Cable Car&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-11-17-san-francisco-cable-car.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-11-17-san-francisco-cable-car.jpg&quot; alt=&quot;Cable Car&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1073,20 +1073,20 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2014-11-09-las-vegas-bellagio-fountain.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2014-11-09-las-vegas-bellagio-fountain.jpg&quot; alt=&quot;Bellagio fountains, with the Paris Las Vegas Eiffel Tower&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2014-11-09-las-vegas-bellagio-fountain.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2014-11-09-las-vegas-bellagio-fountain.jpg&quot; alt=&quot;Bellagio fountains, with the Paris Las Vegas Eiffel Tower&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2014-11-09-las-vegas-venetian-canal.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2014-11-09-las-vegas-venetian-canal.jpg&quot; alt=&quot;Canals and gondolas in the canals of the Venetian&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2014-11-09-las-vegas-venetian-canal.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2014-11-09-las-vegas-venetian-canal.jpg&quot; alt=&quot;Canals and gondolas in the canals of the Venetian&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2014-11-09-las-vegas-venetian-ceiling.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2014-11-09-las-vegas-venetian-ceiling.jpg&quot; alt=&quot;Hand painted frescoes in the Venetian&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2014-11-09-las-vegas-venetian-ceiling.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2014-11-09-las-vegas-venetian-ceiling.jpg&quot; alt=&quot;Hand painted frescoes in the Venetian&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1114,8 +1114,8 @@
             My $20 got me a room on the top (36th) floor! I gladly checked in to this view:
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/other/2014-11-08-las-vegas-night.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-11-08-las-vegas-night.jpg&quot; alt=&quot;Las Vegas Strip by night&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-11-08-las-vegas-night.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-11-08-las-vegas-night.jpg&quot; alt=&quot;Las Vegas Strip by night&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;h3&gt;Downtown Las Vegas&lt;/h3&gt;
@@ -1128,16 +1128,16 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;col-md-6 col-xs-12 text-center&quot;&gt;
-        &lt;a href=&quot;/photos/other/2014-11-09-las-vegas-strip.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-11-09-las-vegas-strip.jpg&quot; alt=&quot;Las Vegas Strip&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-11-09-las-vegas-strip.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2014-11-09-las-vegas-strip.jpg&quot; alt=&quot;Las Vegas Strip&quot; /&gt;
         &lt;/a&gt;
 
         The Strip
     &lt;/div&gt;
 
     &lt;div class=&quot;col-md-6 col-xs-12 text-center&quot;&gt;
-        &lt;a href=&quot;/photos/other/2014-11-09-las-vegas-fremont-street-experience.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-11-09-las-vegas-fremont-street-experience.jpg&quot; alt=&quot;Las Vegas Fremont Street Experience&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-11-09-las-vegas-fremont-street-experience.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2014-11-09-las-vegas-fremont-street-experience.jpg&quot; alt=&quot;Las Vegas Fremont Street Experience&quot; /&gt;
         &lt;/a&gt;
 
         Fremont Street Experience
@@ -1199,14 +1199,14 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-5 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2014-07-31-saint-tropez-harbor.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2014-07-31-saint-tropez-harbor.jpg&quot; alt=&quot;Saint-Tropez Harbor&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2014-07-31-saint-tropez-harbor.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2014-07-31-saint-tropez-harbor.jpg&quot; alt=&quot;Saint-Tropez Harbor&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-7 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2014-07-31-saint-tropez-tour-du-portalet.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2014-07-31-saint-tropez-tour-du-portalet.jpg&quot; alt=&quot;Tour du Portalet&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2014-07-31-saint-tropez-tour-du-portalet.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2014-07-31-saint-tropez-tour-du-portalet.jpg&quot; alt=&quot;Tour du Portalet&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1236,8 +1236,8 @@
         <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;div class=&quot;pull-right col-md-6 col-sm-12&quot;&gt;
-            &lt;a href=&quot;/photos/other/2014-07-30-monaco-port-hercule-2.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2014-07-30-monaco-port-hercule-2.jpg&quot; alt=&quot;Port Hercule&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2014-07-30-monaco-port-hercule-2.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2014-07-30-monaco-port-hercule-2.jpg&quot; alt=&quot;Port Hercule&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
 
@@ -1276,8 +1276,8 @@
             They were comparable to other places in the Riviera, which is not really &lt;q&gt;cheap&lt;/q&gt;.
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/other/2014-07-30-monaco-ville.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-07-30-monaco-ville.jpg&quot; alt=&quot;Monaco-Ville&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-07-30-monaco-ville.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-07-30-monaco-ville.jpg&quot; alt=&quot;Monaco-Ville&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1288,8 +1288,8 @@
             The rest of the rock is mostly stuck in time: it's still a medieval village made up of narrow streets and houses older than anyone who still lives there.
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/other/2014-07-30-monaco-palace.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-07-30-monaco-palace.jpg&quot; alt=&quot;Le Palais des Princes de Monaco&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-07-30-monaco-palace.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-07-30-monaco-palace.jpg&quot; alt=&quot;Le Palais des Princes de Monaco&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1313,8 +1313,8 @@
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;div class=&quot;pull-right col-md-6 col-sm-12&quot;&gt;
-            &lt;a href=&quot;/photos/other/2014-07-28-nice-beach-promenade-des-anglais.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2014-07-28-nice-beach-promenade-des-anglais.jpg&quot; alt=&quot;Beach at Promenade des Anglais&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2014-07-28-nice-beach-promenade-des-anglais.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2014-07-28-nice-beach-promenade-des-anglais.jpg&quot; alt=&quot;Beach at Promenade des Anglais&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
 
@@ -1342,8 +1342,8 @@
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;div class=&quot;pull-right col-md-6 col-sm-12&quot;&gt;
-            &lt;a href=&quot;/photos/other/2014-07-28-nice-cap-ferrat.jpg&quot; class=&quot;lightbox&quot;&gt;
-                &lt;img src=&quot;/photos/small/2014-07-28-nice-cap-ferrat.jpg&quot; alt=&quot;Cap Ferrat peninsula, as seen from Mont Boron&quot; /&gt;
+            &lt;a href=&quot;/photos/full/2014-07-28-nice-cap-ferrat.jpg&quot; class=&quot;lightbox&quot;&gt;
+                &lt;img src=&quot;/photos/thumb/2014-07-28-nice-cap-ferrat.jpg&quot; alt=&quot;Cap Ferrat peninsula, as seen from Mont Boron&quot; /&gt;
             &lt;/a&gt;
         &lt;/div&gt;
 
@@ -1411,14 +1411,14 @@
 
 &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
     &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2014-07-27-cannes-red-carpet.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-07-27-cannes-red-carpet.jpg&quot; alt=&quot;Cannes red carpet at Palais des Festivals&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-07-27-cannes-red-carpet.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2014-07-27-cannes-red-carpet.jpg&quot; alt=&quot;Cannes red carpet at Palais des Festivals&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2014-07-27-cannes-beach.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-07-27-cannes-beach.jpg&quot; alt=&quot;Plage du Midi&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-07-27-cannes-beach.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2014-07-27-cannes-beach.jpg&quot; alt=&quot;Plage du Midi&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1444,7 +1444,9 @@
             Until I got to a sign that instructed me that the path was closed due to hillslides.
         &lt;/p&gt;
 
-        &lt;img src=&quot;/photos/small/2014-05-11-zurich-stop.jpg&quot; alt=&quot;Üetliberg hillslide warning sign&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-05-11-zurich-stop.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-05-11-zurich-stop.jpg&quot; alt=&quot;Üetliberg hillslide warning sign&quot; class=&quot;pano&quot; /&gt;
+        &lt;/a&gt;
 
         &lt;p&gt;
             When I looked at the map - I had fired up Google Maps somewhere along the way to figure out where I was, and had decided where I wanted to go: the top - I soon realized going back and taking the other route would be a significant detour.
@@ -1452,8 +1454,8 @@
             And I didn't see anything for quite awhile. Until I got pretty close to the top, and this awaited me:
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/other/2014-05-11-zurich-hillslide.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-05-11-zurich-hillslide.jpg&quot; alt=&quot;Üetliberg hillslide&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-05-11-zurich-hillslide.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-05-11-zurich-hillslide.jpg&quot; alt=&quot;Üetliberg hillslide&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1471,8 +1473,8 @@
             But the view sure made up for that. I snapped a few pictures before it got too cold, and decided to head back.
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/other/2014-05-11-zurich-zurichsee.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2014-05-11-zurich-zurichsee.jpg&quot; alt=&quot;Zürichsee as seen from the top of the Üetliberg&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2014-05-11-zurich-zurichsee.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2014-05-11-zurich-zurichsee.jpg&quot; alt=&quot;Zürichsee as seen from the top of the Üetliberg&quot; class=&quot;pano&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1511,8 +1513,8 @@
 
         &lt;h3&gt;Empire State Building&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/large/2013-09-21-new-york-empire-state.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-21-new-york-empire-state.jpg&quot; alt=&quot;Downtown New York City, as seem from the Empire State Building&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-21-new-york-empire-state.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-21-new-york-empire-state.jpg&quot; alt=&quot;Downtown New York City, as seem from the Empire State Building&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1547,8 +1549,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;Central Park&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-19-new-york-central-park.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-19-new-york-central-park.jpg&quot; alt=&quot;South end of Central Park&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-19-new-york-central-park.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-19-new-york-central-park.jpg&quot; alt=&quot;South end of Central Park&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1569,8 +1571,8 @@
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;Times Square&lt;/h3&gt;
-        &lt;a href=&quot;/photos/other/2013-09-21-new-york-times-square.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-21-new-york-times-square.jpg&quot; alt=&quot;Bustling Times Square at night&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-21-new-york-times-square.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-21-new-york-times-square.jpg&quot; alt=&quot;Bustling Times Square at night&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1594,8 +1596,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;High Line&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-21-new-york-high-line.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-21-new-york-high-line.jpg&quot; alt=&quot;New York City streets as seen from the High Line&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-21-new-york-high-line.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-21-new-york-high-line.jpg&quot; alt=&quot;New York City streets as seen from the High Line&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1616,8 +1618,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;Ground Zero&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-18-new-york-ground-zero.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-18-new-york-ground-zero.jpg&quot; alt=&quot;One of the memorial pools on Ground Zero&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-18-new-york-ground-zero.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-18-new-york-ground-zero.jpg&quot; alt=&quot;One of the memorial pools on Ground Zero&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1638,8 +1640,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;Bonus: Grand Central Station&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-21-new-york-grand-central-station.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-21-new-york-grand-central-station.jpg&quot; alt=&quot;Grand Central Terminal Main Concourse&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-21-new-york-grand-central-station.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-21-new-york-grand-central-station.jpg&quot; alt=&quot;Grand Central Terminal Main Concourse&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1656,8 +1658,8 @@
 
 &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
     &lt;div class=&quot;col-sm-12 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/large/2013-09-18-new-york.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-18-new-york.jpg&quot; class=&quot;pano&quot; alt=&quot;New York City skyline, as seen from the Statue of Liberty ferry&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-18-new-york.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2013-09-18-new-york.jpg&quot; class=&quot;pano&quot; alt=&quot;New York City skyline, as seen from the Statue of Liberty ferry&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1674,8 +1676,8 @@
 
         &lt;h3&gt;Statue of Liberty&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-19-new-york-statue-of-liberty.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-19-new-york-statue-of-liberty.jpg&quot; alt=&quot;Statue of Liberty and the ferry that'll take you there&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-19-new-york-statue-of-liberty.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-19-new-york-statue-of-liberty.jpg&quot; alt=&quot;Statue of Liberty and the ferry that'll take you there&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1701,8 +1703,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;Charging Bull&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-19-new-york-charging-bull.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-19-new-york-charging-bull.jpg&quot; alt=&quot;Rubbing the Charging Bull&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-19-new-york-charging-bull.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-19-new-york-charging-bull.jpg&quot; alt=&quot;Rubbing the Charging Bull&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1721,8 +1723,8 @@
     &lt;div class=&quot;col-sm-12&quot;&gt;
         &lt;h3&gt;Coney Island&lt;/h3&gt;
 
-        &lt;a href=&quot;/photos/other/2013-09-21-new-york-coney-island.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-21-new-york-coney-island.jpg&quot; alt=&quot;Coney Island and the Brighton Beach Boardwalk&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-21-new-york-coney-island.jpg&quot; class=&quot;lightbox pull-right img-responsive col-lg-4 col-md-6 col-sm-12&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-21-new-york-coney-island.jpg&quot; alt=&quot;Coney Island and the Brighton Beach Boardwalk&quot; /&gt;
         &lt;/a&gt;
 
         &lt;p&gt;
@@ -1790,20 +1792,20 @@
 
 &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2013-09-14-yosemite-deer.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-14-yosemite-deer.jpg&quot; alt=&quot;Deer in Yosemite Valley&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-14-yosemite-deer.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-14-yosemite-deer.jpg&quot; alt=&quot;Deer in Yosemite Valley&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2013-09-14-yosemite-valley.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-09-14-yosemite-valley.jpg&quot; alt=&quot;Looking over the trees at the Yosemite Valley hills&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-09-14-yosemite-valley.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-09-14-yosemite-valley.jpg&quot; alt=&quot;Looking over the trees at the Yosemite Valley hills&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2012-09-17-yosemite-sequoia.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2012-09-17-yosemite-sequoia.jpg&quot; alt=&quot;Huge Sequoia in Mariposa Grove&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-09-17-yosemite-sequoia.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-09-17-yosemite-sequoia.jpg&quot; alt=&quot;Huge Sequoia in Mariposa Grove&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1852,20 +1854,20 @@
 
 &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2013-07-02-amsterdam-ship.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-07-02-amsterdam-ship.jpg&quot; alt=&quot;Replica of the Amsterdam, an 18th century VOC ship&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-07-02-amsterdam-ship.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-07-02-amsterdam-ship.jpg&quot; alt=&quot;Replica of the Amsterdam, an 18th century VOC ship&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2013-07-02-amsterdam-canals.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-07-02-amsterdam-canals.jpg&quot; alt=&quot;Bridges in Amsterdam's canals lined up perfectly&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-07-02-amsterdam-canals.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-07-02-amsterdam-canals.jpg&quot; alt=&quot;Bridges in Amsterdam's canals lined up perfectly&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2013-07-02-amsterdam-eye.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2013-07-02-amsterdam-eye.jpg&quot; alt=&quot;Amsterdam EYE Film Institute&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2013-07-02-amsterdam-eye.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2013-07-02-amsterdam-eye.jpg&quot; alt=&quot;Amsterdam EYE Film Institute&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1942,7 +1944,9 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;col-md-4 col-sm-12&quot;&gt;
-        &lt;img src=&quot;/photos/other/2012-09-16-san-francisco-flight-simulator.jpg&quot; alt=&quot;Flight simulator&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-09-16-san-francisco-flight-simulator.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-09-16-san-francisco-flight-simulator.jpg&quot; alt=&quot;Flight simulator&quot; /&gt;
+        &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -1995,20 +1999,20 @@
 
 &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2012-08-09-paphos-fort.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2012-08-09-paphos-fort.jpg&quot; alt=&quot;Paphos Fort&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-08-09-paphos-fort.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-08-09-paphos-fort.jpg&quot; alt=&quot;Paphos Fort&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2012-08-09-paphos-mosaic.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2012-08-09-paphos-mosaic.jpg&quot; alt=&quot;Roman mosaics in Paphos Archaeological Park&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-08-09-paphos-mosaic.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-08-09-paphos-mosaic.jpg&quot; alt=&quot;Roman mosaics in Paphos Archaeological Park&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2012-08-09-paphos-odeon.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2012-08-09-paphos-odeon.jpg&quot; alt=&quot;Paphos Odeon&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-08-09-paphos-odeon.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-08-09-paphos-odeon.jpg&quot; alt=&quot;Paphos Odeon&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -2051,7 +2055,7 @@
         &lt;p&gt;
             It's easy to see where the legends come from.
             It's had its share of famous inmates, like Al &lt;q&gt;Scarface&lt;/q&gt; Capone, &lt;q&gt;Machine Gun&lt;/q&gt; Kelly and &lt;q&gt;The Birdman&lt;/q&gt;.
-            But it's military history &amp; the occupation by the Indians are not as widely known.
+            But its military history &amp; the occupation by the Indians are not as widely known.
             In a nutshell:
         &lt;/p&gt;
 
@@ -2096,20 +2100,20 @@
 
         &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2012-05-27-alcatraz-cells.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2012-05-27-alcatraz-cells.jpg&quot; alt=&quot;Alcatraz prison cells&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2012-05-27-alcatraz-cells.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2012-05-27-alcatraz-cells.jpg&quot; alt=&quot;Alcatraz prison cells&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2012-05-27-alcatraz-sf-view.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2012-05-27-alcatraz-sf-view.jpg&quot; alt=&quot;San Francisco, as seen from Alcatraz&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2012-05-27-alcatraz-sf-view.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2012-05-27-alcatraz-sf-view.jpg&quot; alt=&quot;San Francisco, as seen from Alcatraz&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class=&quot;col-sm-4 no-padding&quot;&gt;
-                &lt;a href=&quot;/photos/other/2012-05-27-alcatraz-control-room.jpg&quot; class=&quot;lightbox&quot;&gt;
-                    &lt;img src=&quot;/photos/small/2012-05-27-alcatraz-control-room.jpg&quot; alt=&quot;Alcatraz prison control room&quot; /&gt;
+                &lt;a href=&quot;/photos/full/2012-05-27-alcatraz-control-room.jpg&quot; class=&quot;lightbox&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2012-05-27-alcatraz-control-room.jpg&quot; alt=&quot;Alcatraz prison control room&quot; /&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -2141,14 +2145,14 @@
 
 &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
     &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2012-05-27-angel-island-fort-mcdowell.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2012-05-27-angel-island-fort-mcdowell.jpg&quot; alt=&quot;Fort McDowell&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-05-27-angel-island-fort-mcdowell.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-05-27-angel-island-fort-mcdowell.jpg&quot; alt=&quot;Fort McDowell&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
-        &lt;a href=&quot;/photos/other/2012-05-27-angel-island-battery-ledyard.jpg&quot; class=&quot;lightbox&quot;&gt;
-            &lt;img src=&quot;/photos/small/2012-05-27-angel-island-battery-ledyard.jpg&quot; alt=&quot;Battery Ledyard&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-05-27-angel-island-battery-ledyard.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/thumb/2012-05-27-angel-island-battery-ledyard.jpg&quot; alt=&quot;Battery Ledyard&quot; /&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -2171,7 +2175,9 @@
             The top is the island, Mt. Livermore, is at 240m (or 788 feet), and there will be plenty of scenic overlooks along the way.
         &lt;/p&gt;
 
-        &lt;img src=&quot;/photos/small/2012-05-27-angel-island-view.jpg&quot; alt=&quot;San Francisco Bay view from Angel Island&quot; class=&quot;pano&quot; /&gt;
+        &lt;a href=&quot;/photos/full/2012-05-27-angel-island-view.jpg&quot; class=&quot;lightbox&quot;&gt;
+            &lt;img src=&quot;/photos/large/2012-05-27-angel-island-view.jpg&quot; alt=&quot;San Francisco Bay view from Angel Island&quot; class=&quot;pano&quot; /&gt;
+        &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 </content>

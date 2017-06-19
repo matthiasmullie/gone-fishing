@@ -117,8 +117,14 @@ $(document).ready(function () {
         return false;
     });
 
-    $('a.lightbox').fluidbox({
-        immediateOpen: true
+    $('.gallery').each(function() {
+        $(this).magnificPopup({
+            delegate: 'a.lightbox',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
     });
 
     $('textarea').autoExpand({ animationTime: 20 });
