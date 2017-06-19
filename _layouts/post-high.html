@@ -5,7 +5,7 @@ image: /assets/images/logo/gone-fishing-300.png
 
 <div class="row no-margin main-bg">
     <div class="blog-post single-post blog-post-high">
-        <div class="no-padding col-lg-9">
+        <div class="gallery no-padding col-lg-9">
             <div class="post-cover col-md-5 no-padding">
                 {% if page.video %}
                 <div class="embed-responsive embed-responsive-16by9">
@@ -13,7 +13,7 @@ image: /assets/images/logo/gone-fishing-300.png
                 </div>
 
                 {% elsif page.image %}
-                <a href="{{ site.baseurl }}photos/full/{{ page.image }}">
+                <a href="{{ site.baseurl }}photos/full/{{ page.image }}" class="lightbox">
                     <img src="{{ site.baseurl }}photos/large/{{ page.image }}" alt="{{ page.title }}" />
                 </a>
                 {% endif %}

@@ -157,6 +157,10 @@ a {
     margin: 0 0 6px;
 }
 
+.blog-post .post-cover {
+    overflow: initial;
+}
+
 .blog-post.blog-post-normal .post-cover img {
     max-height: 700px;
     width: 100%;
@@ -166,6 +170,10 @@ a {
 .blog-post.blog-post-high .post-cover {
     float: right;
     margin-bottom: 30px;
+}
+
+.blog-post.blog-post-wide .post-cover img {
+    width: 100%;
 }
 
 @media (min-width: 992px) {

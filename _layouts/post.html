@@ -5,7 +5,7 @@ image:
 
 <div class="row no-margin main-bg">
     <div class="no-padding col-lg-9">
-        <div class="blog-post single-post blog-post-normal">
+        <div class="blog-post single-post blog-post-normal gallery">
             <div class="post-cover">
                 {% if page.video %}
                 <div class="embed-responsive embed-responsive-16by9">
@@ -13,7 +13,7 @@ image:
                 </div>
 
                 {% elsif page.image %}
-                <a href="{{ site.baseurl }}photos/full/{{ page.image }}">
+                <a href="{{ site.baseurl }}photos/full/{{ page.image }}" class="lightbox">
                     <img src="{{ site.baseurl }}photos/large/{{ page.image }}" alt="{{ page.title }}" />
                 </a>
                 {% endif %}

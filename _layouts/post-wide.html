@@ -5,66 +5,68 @@ image: /assets/images/logo/gone-fishing-300.png
 
 <div class="row no-margin main-bg">
     <div class="blog-post single-post blog-post-wide">
-        <div class="post-cover">
-            {% if page.video %}
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="{{ page.video }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="gallery">
+            <div class="post-cover">
+                {% if page.video %}
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="{{ page.video }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                {% elsif page.image %}
+                <a href="{{ site.baseurl }}photos/full/{{ page.image }}" class="lightbox">
+                    <img src="{{ site.baseurl }}photos/large/{{ page.image }}" alt="{{ page.title }}" />
+                </a>
+                {% endif %}
             </div>
 
-            {% elsif page.image %}
-            <a href="{{ site.baseurl }}photos/full/{{ page.image }}">
-                <img src="{{ site.baseurl }}photos/large/{{ page.image }}" alt="{{ page.title }}" />
-            </a>
-            {% endif %}
-        </div>
-
-        <div class="no-padding col-lg-9">
-            <div class="post-content">
-                <div class="post-header">
-                    <h4>
-                        {{ page.date | date_to_string }}
-                        {% comment %}we assume an average reading speed of 150 wpm here{% endcomment %}
-                        <span><i class="fa fa-clock-o"></i> {{ page.content | strip_html | split: " " | size | divided_by: 150 | ceil }} min to read</span>
-                    </h4>
-                    <h1>{{ page.title }}</h1>
-                    <ul class="socials-post">
-                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/thumb/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                    <h5><i class="fa fa-tags"></i> {% include tags.html tags=page.tags %}</h5>
-                </div>
-
-                {% capture ads %}
-                <div class="ad adsense">{% include ads-content.html %}</div>
-                {% endcapture %}
-                {{ content | replace: "<!-- more -->", "" | replace: "<!-- ads -->", ads }}
-
-                <div class="post-footer">
-                    <ul class="socials-post">
-                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/thumb/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                </div>
-
-                {% if page.coordinate %}
-                <div class="map-location">
-                    <div id="map" data-coordinates="[{{ page.coordinate | jsonify }}]" data-center="{{ page.coordinate | jsonify }}" data-zoom="5"></div>
-                    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
-                </div>
-                {% endif %}
-
-                <div class="row also-like">
-                    <div class="col-md-12">
-                        <h3 class="mini-title">You may also like</h3>
+            <div class="no-padding col-lg-9">
+                <div class="post-content">
+                    <div class="post-header">
+                        <h4>
+                            {{ page.date | date_to_string }}
+                            {% comment %}we assume an average reading speed of 150 wpm here{% endcomment %}
+                            <span><i class="fa fa-clock-o"></i> {{ page.content | strip_html | split: " " | size | divided_by: 150 | ceil }} min to read</span>
+                        </h4>
+                        <h1>{{ page.title }}</h1>
+                        <ul class="socials-post">
+                            <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/thumb/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                        <h5><i class="fa fa-tags"></i> {% include tags.html tags=page.tags %}</h5>
                     </div>
 
-                    {% include related.html current=page limit=4 %}
+                    {% capture ads %}
+                    <div class="ad adsense">{% include ads-content.html %}</div>
+                    {% endcapture %}
+                    {{ content | replace: "<!-- more -->", "" | replace: "<!-- ads -->", ads }}
+
+                    <div class="post-footer">
+                        <ul class="socials-post">
+                            <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/thumb/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+
+                    {% if page.coordinate %}
+                    <div class="map-location">
+                        <div id="map" data-coordinates="[{{ page.coordinate | jsonify }}]" data-center="{{ page.coordinate | jsonify }}" data-zoom="5"></div>
+                        <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
+                    </div>
+                    {% endif %}
+
+                    <div class="row also-like">
+                        <div class="col-md-12">
+                            <h3 class="mini-title">You may also like</h3>
+                        </div>
+
+                        {% include related.html current=page limit=4 %}
+                    </div>
                 </div>
             </div>
         </div>

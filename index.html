@@ -46,7 +46,7 @@ order: 0
 <h3 class="site-title">Recent photos</h3>
 
 {% assign photos_page = site.pages | where: 'name', 'photos.html' | first %}
-<div class="row no-margin">
+<div class="gallery row no-margin">
     {% for photo in photos_page.photos limit: 5 %}
     <div class="photo no-padding {% if forloop.first %}col-lg-6 col-md-4{% else %}col-lg-3 col-md-4{% endif %} col-sm-6 col-xs-12">
         <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox">
