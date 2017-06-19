@@ -121,12 +121,17 @@ a {
     padding-top: 1px;
 }
 
-.blog-post.wide-post {
-    padding-left: 40%;
+@media (min-width: 601px) {
+    .blog-post.wide-post {
+        padding-left: 40%;
+    }
+
+    .blog-post.wide-post .post-cover {
+        width: 40%;
+    }
 }
 
 .blog-post.wide-post .post-cover {
-    width: 40%;
     bottom: 0;
 }
 
