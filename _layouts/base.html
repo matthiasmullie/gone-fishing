@@ -46,8 +46,8 @@
     <meta property="og:site_name" content="{{ site.title }}">
 
     {% if page.image %}
-        <meta property="og:image" content="{{ site.url }}/photos/{{ page.image | replace: 'large', 'small' | replace: 'other', 'small' }}">
-        <meta name="twitter:image" content="{{ site.url }}/photos/{{ page.image | replace: 'large', 'small' | replace: 'other', 'small' }}" />
+        <meta property="og:image" content="{{ site.url }}/photos/thumb/{{ page.image }}">
+        <meta name="twitter:image" content="{{ site.url }}/photos/thumb/{{ page.image }}" />
     {% else %}
         <meta property="og:image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
         <meta name="twitter:image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png" />

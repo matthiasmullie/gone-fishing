@@ -31,12 +31,12 @@
     <div class="row no-margin">
         <h4>Recent photos</h4>
 
-        {% assign photos = site.static_files | where: "photo", true | reverse %}
+        {% assign photos_page = site.pages | where: 'name', 'photos.html' | first %}
         <div class="row no-margin">
-            {% for photo in photos limit: 4 %}
+            {% for photo in photos_page.photos limit: 4 %}
             <div class="photo col-md-6 no-padding">
-                <a href="{{ photo.path }}" class="lightbox">
-                    <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
+                <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox">
+                    <img src="{{ site.baseurl }}photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
                 </a>
             </div>
             {% endfor %}

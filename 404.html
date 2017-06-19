@@ -23,7 +23,7 @@ permalink: /404.html
     <div class="no-padding col-lg-3 col-md-6 col-xs-12 text-center">
         <div class="photo">
             <a href="{{ post.url }}">
-                <img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" />
+                <img src="{{ site.baseurl }}photos/thumb/{{ post.image }}" alt="{{ post.title }}" />
             </a>
         </div>
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>

@@ -2,15 +2,79 @@
 layout: page
 title: Photos
 order: 2
+photos:
+    - filename: 2017-04-23-hallerbos-pano.jpg
+      title: Hallerbos, a magical blue forest
+    - filename: 2017-02-02-zwevegem.jpg
+      title: Sunrise in Zwevegem
+    - filename: 2017-01-17-san-francisco-california-street.jpg
+      title: California Street
+    - filename: 2017-01-15-san-francisco-beuna-vista-park.jpg
+      title: Buena Vista Park, looking down to the Golden Gate Bridge
+    - filename: 2016-12-30-point-de-vue-rochehaut.jpg
+      title: Point de Vue in Rochehaut
+    - filename: 2016-10-22-seattle-space-needle.jpg
+      title: Seattle Space Needle &amp; monorail track
+    - filename: 2016-08-13-london-houses-of-parliament-big-ben.jpg
+      title: London's Houses of Parliament &amp; the Big Ben
+    - filename: 2016-08-01-plitvice.jpg
+      title: Plitvice lakes
+    - filename: 2016-08-01-plitvice-waterfalls.jpg
+      title: Plitvice waterfalls
+    - filename: 2016-07-26-dubrovnik.jpg
+      title: Dubrovnik, as seen from Srđ mountain
+    - filename: 2016-07-26-dubrovnik-love-locks.jpg
+      title: Love locks of Dubrovnik
+    - filename: 2016-06-08-bixby-bridge.jpg
+      title: Bixby Bridge & Big Sur coast
+    - filename: 2016-05-31-whistler-lake-garibaldi.jpg
+      title: Lake Garibaldi
+    - filename: 2016-05-30-whistler-river-of-dreams.jpg
+      title: River of Golden Dreams
+    - filename: 2016-05-30-whistler-green-lake.jpg
+      title: Green Lake
+    - filename: 2016-05-25-vancouver-grouse-mountain.jpg
+      title: Grouse Mountain gondola
+    - filename: 2015-07-20-teotihuacan-piramide-de-la-luna.jpg
+      title: Pyramid of the Moon in Teotihuacán
+    - filename: 2015-07-20-mexico-angel-de-la-independencia.jpg
+      title: Angel de la Independencia
+    - filename: 2015-01-25-san-francisco-sunglasses.jpg
+      title: Sunny San Francisco
+    - filename: 2014-11-17-san-francisco-cable-car.jpg
+      title: Cable car in California Street
+    - filename: 2014-05-11-zurich-uetliberg.jpg
+      title: View from Üetliberg
+    - filename: 2013-09-23-new-york-brooklyn-bridge.jpg
+      title: Brooklyn Bridge &amp; downtown NYC
+    - filename: 2013-09-21-new-york-empire-state.jpg
+      title: Downtown NYC from Empire State Building
+    - filename: 2013-09-20-new-york-flatiron.jpg
+      title: Flatiron building
+    - filename: 2013-09-18-new-york.jpg
+      title: NYC skyline
+    - filename: 2013-09-14-yosemite-tunnel-view.jpg
+      title: Yosemite Valley, as seen from the scenic "Tunnel View" overlook
+    - filename: 2013-09-11-san-francisco-twin-peaks.jpg
+      title: San Francisco skyline
+    - filename: 2013-09-07-san-francisco-painted-ladies.jpg
+      title: Painted ladies &amp; downtown SF
+    - filename: 2013-06-08-kortrijk-noordbrug.jpg
+      title: Noordbrug Kortrijk
+    - filename: 2013-06-08-kortrijk-noordbrug-2.jpg
+      title: Noordbrug Kortrijk
+    - filename: 2012-08-06-paphos-beach.jpg
+      title: Cyprus beach
+    - filename: 2012-05-27-san-francisco-golden-gate-bridge.jpg
+      title: Golden Gate Bridge, with USS Iowa passing through
 ---
 
-{% assign photos = site.static_files | where: "photo", true | reverse %}
 <div class="row no-margin">
-    {% for photo in photos %}
-        <div class="photo no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <a href="{{ photo.path }}" class="lightbox">
-                <img src="{{ photo.path | replace: 'large', 'small' }}" alt="" />
-            </a>
-        </div>
+    {% for photo in page.photos %}
+    <div class="photo no-padding col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox">
+            <img src="{{ site.baseurl }}photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
+        </a>
+    </div>
     {% endfor %}
 </div>

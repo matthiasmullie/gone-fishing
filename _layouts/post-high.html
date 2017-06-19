@@ -12,8 +12,10 @@ image: /assets/images/logo/gone-fishing-300.png
                     <iframe class="embed-responsive-item" src="{{ page.video }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 
-                {% else %}
-                <img src="{{ site.baseurl }}photos/{{ page.image }}" alt="{{ page.title }}" />
+                {% elsif page.image %}
+                <a href="{{ site.baseurl }}photos/full/{{ page.image }}">
+                    <img src="{{ site.baseurl }}photos/large/{{ page.image }}" alt="{{ page.title }}" />
+                </a>
                 {% endif %}
             </div>
 
@@ -28,7 +30,7 @@ image: /assets/images/logo/gone-fishing-300.png
                     <ul class="socials-post">
                         <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/large/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/thumb/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
                         <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
                     </ul>
@@ -44,7 +46,7 @@ image: /assets/images/logo/gone-fishing-300.png
                     <ul class="socials-post">
                         <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/home?status={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/large/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="https://pinterest.com/pin/create/button/?url={{ page.url | prepend: site.url | uri_escape }}&media={{ page.image | prepend: "/photos/thumb/" | prepend: site.url | uri_escape }}&description="><i class="fa fa-pinterest"></i></a></li>
                         <li><a href="https://plus.google.com/share?url={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="mailto:?body={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-envelope"></i></a></li>
                     </ul>

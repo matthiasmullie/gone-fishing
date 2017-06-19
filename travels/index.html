@@ -9,7 +9,7 @@ order: 1
         {% for post in paginator.posts %}
             <div class="blog-post wide-post">
                 <div class="post-cover">
-                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/{{ post.image | replace: 'large', 'small' | replace: 'other', 'small' }}" alt="{{ post.title }}" /></a>
+                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/thumb/{{ post.image }}" alt="{{ post.title }}" /></a>
                 </div>
                 <div class="post-content">
                     <div class="post-header">
