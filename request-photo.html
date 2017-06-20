@@ -1,0 +1,122 @@
+---
+layout: page
+title: Request a photo
+order: -1
+---
+
+<div class="page">
+    <div class="container">
+        <div class="contact">
+            <div class="row">
+                <h1>Request a photo</h1>
+
+                <div class="col-sm-12">
+                    <p>
+                        If you like a particular photo and would like a non-watermarked copy or print, I'll be happy to provide in most cases.
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <h3>Raw non-watermarked file</h3>
+
+                    <p>
+                        I'm not looking to make a ton of money off of these photos, but I don't want others to make a profit on them without my permissions.
+                    </p>
+
+                    <p>
+                        If you intend to use a photo for commercial/promotional purposes, I'll request a fair compensation.
+                        If you need any of the photos for personal or education purposes where you cannot use the watermarked versions, I'll probably be happy to send you the raw file for free.
+                    </p>
+
+                    <p>
+                        Just let me know what you intend to use the image for, and we can work out the details.
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <h3>Print</h3>
+
+                    <p>
+                        I like a nice print on the wall as much as anyone, and I'd be honored if someone wants to have one of my photos on theirs.
+                    </p>
+
+                    <p>
+                        All I need to get started is your address, your desired dimensions and finish (poster, canvas, framed, ...)
+                        I'll then send you a quote to confirm the order before getting it printed &amp; shipped.
+                    </p>
+
+                    <p>
+                        <i>
+                            I can't provide a fixed price as it'll depend on the size, finish &amp; shipping.
+                            I need to make sure these costs are covered.
+                        </i>
+                    </p>
+                </div>
+            </div>
+
+            <form action="http://getsimpleform.com/messages?form_api_token=c900d9cf0042dbe6481faecc23e514fd" method="post" class="form">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <h3>Request</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="request" value="Raw file" id="request-raw" required>
+                                <label for="request-raw">Raw file</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="request" value="Print" id="request-print" required>
+                                <label for="request-print">Print, poster, canvas, ...</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9 col-sm-12">
+                        <div class="col-md-6">
+                            <input type="text" name="name" placeholder="Your name" required="required">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" placeholder="Your email" required="required">
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <textarea name="message" placeholder="Message" required="required" rows="1"></textarea>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Select photo(s)</h2>
+
+                <div class="row photos">
+                    {% assign photos = site.static_files | where: "photo", true | reverse %}
+                    {% for photo in photos %}
+                        <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 no-padding no-margin">
+                            <input type="checkbox" name="photo[]" value="{{ photo.path | replace: '/photos/full/', '' }}" id="{{ photo.path | replace: '/photos/full/', '' }}">
+                            <label for="{{ photo.path | replace: '/photos/full/', '' }}"><img src="{{ photo.path | replace: 'full/', 'thumb/' }}"></label>
+                        </div>
+                    {% endfor %}
+                </div>
+            </form>
+
+            <script>
+                // expect these hashes to be prefixed with '#photo-'
+                // (ideally, the has would just be the filename, but browser
+                // defaults to scrolling to the thing with that id...
+                var file = window.location.hash.substr(7);
+                if (file) {
+                    $('input[value="' + file + '"]').prop('checked', true);
+                }
+
+                $('input[name="request"]').on('change', function(e) {
+                    var selected = $(e.currentTarget).attr('id'),
+                        $textarea = $('textarea[name="message"]');
+
+                    if (selected === "request-raw") {
+                        $textarea.attr('placeholder', 'Please describe what you intend to use the image for.');
+                    } else if (selected === 'request-print') {
+                        $textarea.attr('placeholder', 'Please provide your address, desired dimensions and finish (poster, canvas, framed, ...)');
+                    }
+                });
+            </script>
+        </div>
+    </div>
+</div>

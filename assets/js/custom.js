@@ -123,6 +123,13 @@ $(document).ready(function () {
             type: 'image',
             gallery: {
                 enabled: true
+            },
+            image: {
+                titleSrc: function(item) {
+                    var link = '/request-photo/#photo-' + item.el.attr('href').replace('/photos/full/', '');
+                    return item.el.attr('title') +
+                        '<small>Looking for <a href="' + link + '">the original (non-watermarked) photo</a> or <a href="' + link + '">a print</a>?</small>';
+                }
             }
         });
     });

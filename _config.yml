@@ -26,6 +26,12 @@ exclude:
 
 permalink: /:categories/:title/
 
+defaults:
+  - scope:
+      path: "photos/full"
+    values:
+      photo: true
+
 jekyll-archives:
   enabled:
     - tags

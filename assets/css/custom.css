@@ -105,8 +105,7 @@ a {
     height: 600px;
 }
 
-.photo img,
-.fluidbox__wrap {
+.photo img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -436,4 +435,36 @@ img.pano {
 
 .page-404-not-found .logo {
     padding-top: 30px;
+}
+
+/* Request a photo */
+.page-request-a-photo li {
+    display: block;
+}
+
+.page-request-a-photo li input[type="radio"] + label {
+    padding-left: 10px;
+}
+
+.page-request-a-photo label {
+    font-weight: initial;
+}
+
+.page-request-a-photo .photos input[type="checkbox"] {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: scale(2, 2);
+}
+
+.page-request-a-photo .photos label {
+    margin: 0;
+    height: 100px;
+}
+
+.page-request-a-photo .photos label img {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
