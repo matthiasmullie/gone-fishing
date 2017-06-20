@@ -74,7 +74,7 @@ photos:
 <div class="gallery row no-margin">
     {% for photo in page.photos %}
     <div class="photo no-padding {% if forloop.first %}col-lg-6 col-md-8{% else %}col-lg-3 col-md-4{% endif %} col-sm-6 col-xs-12">
-        <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox">
+        <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox" title="{{ photo.title }}">
             <img src="{{ site.baseurl }}photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
         </a>
     </div>
