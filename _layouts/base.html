@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:article="http://ogp.me/ns/article" itemscope itemtype="http://schema.org/Article">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,6 +56,11 @@
         <meta itemprop="image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
         <meta itemprop="thumbnailUrl" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
         <link rel="image_src" href="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
+    {% endif %}
+
+    {% if page.video %}
+        <meta property="og:video" content="{{ page.video }}">
+        <meta itemprop="embedURL" content="{{ page.video }}" />
     {% endif %}
 
     {% if page.date %}
