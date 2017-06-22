@@ -15,14 +15,6 @@
     <link href="{{ site.baseurl }}assets/css/magnific-popup.css" rel="stylesheet">
     <link href="{{ site.baseurl }}assets/css/custom.css" rel="stylesheet">
 
-    <title>
-    {% if page.title %}
-        {{ page.title | strip_html }} &middot; {{ site.title }}
-    {% else %}
-        {{ site.title | strip_html }}
-    {% endif %}
-    </title>
-
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}assets/images/logo/gone-fishing-144.png">
     <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/logo/favicon.ico">
 
@@ -32,25 +24,39 @@
     <meta name="author" content="{{ site.author.gplus }}">
     <link rel="author" href="{{ site.author.gplus }}">
 
+    <meta property="og:site_name" content="{{ site.title }}">
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.author.twitter }}">
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <title>{% if page.title %}{{ page.title | strip_html }} &middot; {{ site.title }}{% else %}{{ site.title | strip_html }}{% endif %}</title>
+    <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html }} &middot; {{ site.title }}{% else %}{{ site.title | strip_html }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | strip_html }} &middot; {{ site.title }}{% else %}{{ site.title | strip_html }}{% endif %}">
+    <meta itemprop="name" content="{% if page.title %}{{ page.title | strip_html }} &middot; {{ site.title }}{% else %}{{ site.title | strip_html }}{% endif %}">
+
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html }}{% else %}{{ site.title | strip_html }}{% endif %}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title | strip_html }}{% else %}{{ site.title | strip_html }}{% endif %}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
+    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
 
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
 
     {% if page.image %}
         <meta property="og:image" content="{{ site.url }}/photos/thumb/{{ page.image }}">
-        <meta name="twitter:image" content="{{ site.url }}/photos/thumb/{{ page.image }}" />
+        <meta name="twitter:image" content="{{ site.url }}/photos/thumb/{{ page.image }}">
+        <meta itemprop="image" content="{{ site.url }}/photos/thumb/{{ page.image }}">
+        <meta itemprop="thumbnailUrl" content="{{ site.url }}/photos/thumb/{{ page.image }}">
+        <link rel="image_src" href="{{ site.url }}/photos/thumb/{{ page.image }}">
     {% else %}
         <meta property="og:image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
-        <meta name="twitter:image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png" />
+        <meta name="twitter:image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
+        <meta itemprop="image" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
+        <meta itemprop="thumbnailUrl" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
+        <link rel="image_src" href="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
     {% endif %}
 
     {% if page.date %}
@@ -61,6 +67,11 @@
         {% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}">{% endfor %}
     {% else %}
         <meta property="og:type" content="blog">
+    {% endif %}
+
+    {% if page.coordinate %}
+        <meta property="og:latitude" content="{{ page.coordinate[0] }}">
+        <meta property="og:longitude" content="{{ page.coordinate[1] }}">
     {% endif %}
 </head>
 
