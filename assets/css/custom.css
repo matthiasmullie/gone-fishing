@@ -1,12 +1,12 @@
-header {
+body > header {
     padding: 0;
 }
 
-footer {
+body > footer {
     padding: 40px 0;
 }
 
-footer .footer-nav {
+body > footer .footer-nav {
     border: none;
 }
 
