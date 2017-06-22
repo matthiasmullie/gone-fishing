@@ -7,20 +7,34 @@ layout: page
 <div class="row no-margin main-bg">
     <div class="no-padding col-lg-9">
         {% for post in page.posts %}
-        <div class="blog-post wide-post">
+        <article itemscope itemtype="http://schema.org/BlogPosting" class="blog-post wide-post">
+            <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}">
+            <meta itemprop="image" content="{{ site.url }}/photos/full/{{ post.image }}">
+            <meta itemprop="thumbnailUrl" content="{{ site.url }}/photos/thumb/{{ post.image }}">
+            <meta itemprop="description" content="{% if post.description %}{{ post.description | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
+            <meta itemprop="url" content="{{ site.url }}{{ post.url }}">
+            <meta itemprop="headline" content="{{ post.title }}">
+            <meta itemprop="author" content="{{ site.author.name }}">
+            <meta itemprop="datePublished" content="{{ post.date | date: '%m-%d-%Y' }}">
+            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display: none">
+                <meta itemprop="name" content="{{ site.title }}">
+                <meta itemprop="logo" content="{{ site.url }}/assets/images/logo/gone-fishing-300.png">
+            </div>
+
             <div class="post-cover">
                 <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/thumb/{{ post.image }}" alt="{{ post.title }}" /></a>
             </div>
             <div class="post-content">
-                <div class="post-header">
+                <header class="post-header">
                     <h4>
-                        {{ post.date | date_to_string }}
+                        {{ post.date }}
+                        <time itemprop="datePublished" content="{{ post.date | date: '%m-%d-%Y' }}">{{ post.date | date_to_string }}</time>
                         {% comment %}we assume an average reading speed of 150 wpm here{% endcomment %}
                         <span><i class="fa fa-clock-o"></i> {{ post.content | strip_html | split: " " | size | divided_by: 150 | ceil }} min to read</span>
                     </h4>
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h2 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     <h5><i class="fa fa-tags"></i> {% include tags.html tags=post.tags %}</h5>
-                </div>
+                </header>
 
                 {% if post.content contains "<!-- more -->" %}
                     {{ post.content | split: "<!-- more -->" | first | strip_html }}
@@ -30,11 +44,11 @@ layout: page
                     {{ post.content | strip_html | truncatewords: 100 }}
                 {% endif %}
 
-                <div class="post-footer">
+                <footer class="post-footer">
                     <a href="{{ post.url }}">Read more</a>
-                </div>
+                </footer>
             </div>
-        </div>
+        </article>
         {% endfor %}
     </div>
 
