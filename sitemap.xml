@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>https://www.gone-fishing.net/travels/dubrovnik-pearl-of-the-adriatic/</loc>
+    <lastmod>2016-07-26T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gone-fishing.net/travels/whistler-blackcomb-garibaldi-provincial-park/</loc>
     <lastmod>2016-05-31T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
@@ -125,42 +131,42 @@
   
   <url>
     <loc>https://www.gone-fishing.net/404.html</loc>
-    <lastmod>2017-06-22T15:29:25+00:00</lastmod>
+    <lastmod>2017-06-26T11:25:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/about/</loc>
-    <lastmod>2017-06-22T15:29:25+00:00</lastmod>
+    <lastmod>2017-06-26T11:25:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/</loc>
-    <lastmod>2017-06-22T15:29:25+00:00</lastmod>
+    <lastmod>2017-06-26T11:25:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/travels/</loc>
-    <lastmod>2017-06-22T15:29:25+00:00</lastmod>
+    <lastmod>2017-06-26T11:25:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/photos/</loc>
-    <lastmod>2017-06-22T15:29:25+00:00</lastmod>
+    <lastmod>2017-06-26T11:25:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.gone-fishing.net/request-photo/</loc>
-    <lastmod>2017-06-22T15:29:25+00:00</lastmod>
+    <lastmod>2017-06-26T11:25:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
