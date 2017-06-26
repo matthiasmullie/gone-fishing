@@ -3,7 +3,7 @@
     <title>Gone Fishing</title>
     <link href="https://www.gone-fishing.net/atom.xml" rel="self"/>
     <link href="https://www.gone-fishing.net/"/>
-    <updated>2017-06-26T11:55:13+00:00</updated>
+    <updated>2017-06-26T13:08:46+00:00</updated>
     <id>https://www.gone-fishing.net</id>
     <author>
         <name>Matthias Mullie</name>
@@ -66,9 +66,19 @@
             Buža Gate (in the north) will place you in the middle of Stradun, after having descended the steep narrow streets perpendicular to Stradun.
         &lt;/p&gt;
 
-        &lt;a href=&quot;/photos/full/2016-07-25-dubrovnik-stradun.jpg&quot; class=&quot;lightbox&quot; title=&quot;Dubrovnik's main street: Stradun&quot;&gt;
-            &lt;img src=&quot;/photos/large/2016-07-25-dubrovnik-stradun.jpg&quot; class=&quot;pano&quot; alt=&quot;Dubrovnik's main street: Stradun&quot;&gt;
-        &lt;/a&gt;
+        &lt;div class=&quot;small-gallery row no-margin&quot;&gt;
+            &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
+                &lt;a href=&quot;/photos/full/2016-07-25-dubrovnik-stradun.jpg&quot; class=&quot;lightbox&quot; title=&quot;Dubrovnik's main street: Stradun&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-07-25-dubrovnik-stradun.jpg&quot; alt=&quot;Dubrovnik's main street: Stradun&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;col-sm-6 no-padding&quot;&gt;
+                &lt;a href=&quot;/photos/full/2016-07-26-dubrovnik-love-locks.jpg&quot; class=&quot;lightbox&quot; title=&quot;Dubrovnik love locks&quot;&gt;
+                    &lt;img src=&quot;/photos/thumb/2016-07-26-dubrovnik-love-locks.jpg&quot; alt=&quot;Dubrovnik love locks&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
 
         &lt;p&gt;
             Near Buža Gate is a cable car that'll take you to the top of Srđ mountain (or you can hike) where the most spectacular view of Dubrovnik can be found, and where &lt;a href=&quot;http://nautikarestaurant.com/panorama-restaurant-bar/&quot;&gt;my favorite restaurant&lt;/a&gt; was.
