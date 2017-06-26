@@ -296,6 +296,7 @@ span.load-more-link.inactive {
 
 img.pano {
     width: 100%;
+    padding: 10px 0 20px;
 }
 
 .post-content ul {
