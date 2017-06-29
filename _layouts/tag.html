@@ -27,7 +27,6 @@ layout: page
             <div class="post-content">
                 <header class="post-header">
                     <h4>
-                        {{ post.date }}
                         <time itemprop="datePublished" content="{{ post.date | date: '%m-%d-%Y' }}">{{ post.date | date_to_string }}</time>
                         {% comment %}we assume an average reading speed of 150 wpm here{% endcomment %}
                         <span><i class="fa fa-clock-o"></i> {{ post.content | strip_html | split: " " | size | divided_by: 150 | ceil }} min to read</span>
