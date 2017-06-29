@@ -303,6 +303,11 @@ img.pano {
     padding-left: 20px;
 }
 
+.small-gallery span {
+    padding: 0 10px;
+    font-size: 90%;
+}
+
 /* sidebar */
 .sidebar .photo {
     max-height: 150px;
