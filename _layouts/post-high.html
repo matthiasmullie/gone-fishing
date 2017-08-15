@@ -65,10 +65,20 @@ image:
                         </ul>
                     </footer>
 
-                    {% if page.coordinate %}
+                    {% if page.coordinate or page.itinerary %}
                     <div class="map-location">
-                        <div id="map" data-coordinates="[{{ page.coordinate | jsonify }}]" data-center="{{ page.coordinate | jsonify }}" data-zoom="5"></div>
+                        <div id="map"
+                             data-zoom="5"
+                             {% if page.coordinate %}data-markers="[{{ page.coordinate | jsonify | replace: '"', '&quot;' }}]" data-center="{{ page.coordinate | jsonify }}"{% endif %}
+                             {% if page.itinerary %}data-directions="{{ page.itinerary | jsonify | replace: '"', '&quot;' }}"{% endif %}
+                        ></div>
                         <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
+
+                        {% if page.itinerary %}
+                        <div class="pull-right">
+                            <a href="https://www.google.ca/maps/dir{% for step in page.itinerary %}/{{ step[0] }},{{ step[1] }}{% endfor%}" class="btn">Open itinerary in Google Maps.</a>
+                        </div>
+                        {% endif %}
                     </div>
                     {% endif %}
                 </article>
