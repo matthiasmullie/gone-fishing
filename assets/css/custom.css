@@ -304,6 +304,7 @@ img.pano {
 }
 
 .small-gallery span {
+    display: block;
     padding: 0 10px;
     font-size: 90%;
 }

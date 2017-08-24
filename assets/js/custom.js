@@ -157,8 +157,8 @@ $(document).ready(function () {
                 });
             }
 
-            start = waypoints.shift();
-            stop = waypoints.pop();
+            start = waypoints[0];
+            stop = waypoints[waypoints.length - 1];
             directionsService.route({
                 origin: start.location,
                 destination: stop.location,
@@ -168,10 +168,9 @@ $(document).ready(function () {
                 if (status === 'OK') {
                     directionsDisplay.setDirections(response);
 
-                    legs = response.routes[0].legs;
-                    for (i = 0; i < legs.length; i++) {
+                    for (i = 0; i < waypoints.length; i++) {
                         this.addMarker(
-                            legs[i].start_location,
+                            waypoints[i].location,
                             'http://maps.google.com/mapfiles/ms/icons/red.png',
                             coordinates[i][2] || ''
                         );
