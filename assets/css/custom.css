@@ -299,11 +299,31 @@ img.pano {
     padding: 10px 0 20px;
 }
 
-.lightbox.pull-right {
+.lightbox.pull-right.col-lg-1, .lightbox.pull-right.col-md-1,
+.lightbox.pull-right.col-lg-2, .lightbox.pull-right.col-md-2,
+.lightbox.pull-right.col-lg-3, .lightbox.pull-right.col-md-3,
+.lightbox.pull-right.col-lg-4, .lightbox.pull-right.col-md-4,
+.lightbox.pull-right.col-lg-5, .lightbox.pull-right.col-md-5,
+.lightbox.pull-right.col-lg-6, .lightbox.pull-right.col-md-6,
+.lightbox.pull-right.col-lg-7, .lightbox.pull-right.col-md-7,
+.lightbox.pull-right.col-lg-8, .lightbox.pull-right.col-md-8,
+.lightbox.pull-right.col-lg-9, .lightbox.pull-right.col-md-9,
+.lightbox.pull-right.col-lg-10, .lightbox.pull-right.col-md-10,
+.lightbox.pull-right.col-lg-11, .lightbox.pull-right.col-md-11 {
     margin-left: 15px;
 }
 
-.lightbox.pull-left{
+.lightbox.pull-left.col-lg-1, .lightbox.pull-left.col-md-1,
+.lightbox.pull-left.col-lg-2, .lightbox.pull-left.col-md-2,
+.lightbox.pull-left.col-lg-3, .lightbox.pull-left.col-md-3,
+.lightbox.pull-left.col-lg-4, .lightbox.pull-left.col-md-4,
+.lightbox.pull-left.col-lg-5, .lightbox.pull-left.col-md-5,
+.lightbox.pull-left.col-lg-6, .lightbox.pull-left.col-md-6,
+.lightbox.pull-left.col-lg-7, .lightbox.pull-left.col-md-7,
+.lightbox.pull-left.col-lg-8, .lightbox.pull-left.col-md-8,
+.lightbox.pull-left.col-lg-9, .lightbox.pull-left.col-md-9,
+.lightbox.pull-left.col-lg-10, .lightbox.pull-left.col-md-10,
+.lightbox.pull-left.col-lg-11, .lightbox.pull-left.col-md-11 {
     margin-right: 15px;
 }
 
