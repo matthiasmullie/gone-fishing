@@ -299,6 +299,14 @@ img.pano {
     padding: 10px 0 20px;
 }
 
+.lightbox.pull-right {
+    margin-left: 15px;
+}
+
+.lightbox.pull-left{
+    margin-right: 15px;
+}
+
 .post-content ul {
     padding-left: 20px;
 }
