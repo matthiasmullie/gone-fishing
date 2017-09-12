@@ -20,7 +20,7 @@ gems:
   - jekyll-archives
   - jekyll-sitemap
 exclude:
-  - travels/wip
+  - travels/_posts/*.wip
   - Gemfile
   - Gemfile.lock
 
