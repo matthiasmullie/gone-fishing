@@ -14,6 +14,10 @@ a {
     color: #e08b1d;
 }
 
+blockquote {
+    font-size: inherit;
+}
+
 .main-full {
     max-width: 100%;
 }
@@ -328,9 +332,15 @@ img.pano {
     .lightbox.pull-left.col-lg-11, .lightbox.pull-left.col-md-11 {
         margin-right: 15px;
     }
+}
 
 .post-content ul {
     padding-left: 20px;
+}
+
+.small-gallery img {
+    border-right: 2px solid rgba(255,255,255,0);
+    border-bottom: 2px solid rgba(255,255,255,0);
 }
 
 .small-gallery span {
