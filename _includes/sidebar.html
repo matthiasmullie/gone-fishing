@@ -35,8 +35,8 @@
         <div class="gallery row no-margin">
             {% for photo in photos_page.photos limit: 4 %}
             <div class="photo col-md-6 no-padding">
-                <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox" title="{{ photo.title }}">
-                    <img src="{{ site.baseurl }}photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
+                <a href="{{ site.baseurl }}/photos/full/{{ photo.filename }}" class="lightbox" title="{{ photo.title }}">
+                    <img src="{{ site.baseurl }}/photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
                 </a>
             </div>
             {% endfor %}

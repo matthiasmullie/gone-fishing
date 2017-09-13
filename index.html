@@ -22,7 +22,7 @@ order: 0
                 </div>
 
                 <div class="post-cover">
-                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}photos/thumb/{{ post.image }}" alt="{{ post.title }}" /></a>
+                    <a href="{{ post.url }}"><img src="{{ site.baseurl }}/photos/thumb/{{ post.image }}" alt="{{ post.title }}" /></a>
                 </div>
                 <div class="post-content">
                     <header class="post-header">
@@ -62,8 +62,8 @@ order: 0
 <div class="gallery row no-margin">
     {% for photo in photos_page.photos limit: 5 %}
     <div class="photo no-padding {% if forloop.first %}col-lg-6 col-md-4{% else %}col-lg-3 col-md-4{% endif %} col-sm-6 col-xs-12">
-        <a href="{{ site.baseurl }}photos/full/{{ photo.filename }}" class="lightbox" title="{{ photo.title }}">
-            <img src="{{ site.baseurl }}photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
+        <a href="{{ site.baseurl }}/photos/full/{{ photo.filename }}" class="lightbox" title="{{ photo.title }}">
+            <img src="{{ site.baseurl }}/photos/thumb/{{ photo.filename }}" alt="{{ photo.title }}" />
         </a>
     </div>
     {% endfor %}
