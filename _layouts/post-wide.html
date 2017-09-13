@@ -56,6 +56,8 @@ image:
                         {% endcapture %}
                         {{ content | replace: "<!-- more -->", "" | replace: "<!-- ads -->", ads }}
 
+                        <div class="ad adsense">{% include ads-leaderboard.html %}</div>
+
                         <footer class="post-footer">
                             <ul class="socials-post">
                                 <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | uri_escape }}"><i class="fa fa-facebook"></i></a></li>
