@@ -462,13 +462,13 @@ img.pano {
     letter-spacing: 3px;
 }
 
-.page-about .social-media {
-    padding-top: 10px;
-}
-
 .page-about .social-media h5 {
     text-align: left;
     padding: 4px 0;
+}
+
+.page-about .social-media i {
+    width: 20px;
 }
 
 .page-about #map {
