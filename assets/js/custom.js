@@ -111,6 +111,27 @@ $(document).ready(function () {
             this.map.setZoom(parseInt(zoom));
         },
 
+        getIcon: function (color, text) {
+            color = color || '#e08b1d';
+            text = text || '';
+
+            var svg =
+                '<svg width="46" height="54" xmlns="http://www.w3.org/2000/svg">' +
+                    // balloon shape
+                    '<path stroke="' + color + '" stroke-width="2" fill="#fcfcfc" style="stroke-opacity: 1; opacity: 0.8" d=" M 7.81 8.31 C 11.74 4.27 17.35 1.87 23 2 C 28.65 1.88 34.27 4.27 38.19 8.31 C 42.01 12.15 44.21 17.59 44 23.02 C 44.04 28.86 41.15 34.49 36.78 38.28 C 32.15 42.35 27.72 46.65 23 50.62 C 18.28 46.66 13.86 42.34 9.23 38.28 C 4.85 34.49 1.96 28.85 2 23.01 C 1.8 17.59 3.99 12.15 7.81 8.31 Z" />' +
+                    // bottom balloon shadow
+                    '<path fill="#7f7f7f" d=" M 18.18 52.59 C 19 52.19 19.83 51.81 20.64 51.41 C 21.36 51.99 22.05 52.79 23.01 52.91 C 23.96 52.79 24.64 51.99 25.36 51.42 C 26.2 51.82 27.05 52.21 27.9 52.6 C 27.79 53.07 27.67 53.53 27.55 54 L 18.33 54 C 18.28 53.53 18.24 53.06 18.18 52.59 Z" />' +
+                    // text
+                    '<text x="23" y="28" font-size="13" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle" fill="#515151" textContent="'+ text +'">'+ text +'</text>' +
+                '</svg>';
+
+            return {
+                url: 'data:image/svg+xml;base64,' + btoa(svg),
+                scaledSize: new google.maps.Size(34.5, 40.5),
+                anchor: new google.maps.Point(21, 40.5)
+            };
+        },
+
         setMarkers: function (coordinates) {
             var coordinate, icon, i;
 
@@ -124,7 +145,8 @@ $(document).ready(function () {
                 }
 
                 coordinate = coordinates[i];
-                icon = 'http://maps.google.com/mapfiles/ms/icons/' + (parseInt(i) === coordinates.length - 1 ? 'red-dot' : 'blue' ) + '.png';
+                icon = this.getIcon(parseInt(i) === coordinates.length - 1 ? '#e08b1d' : '#888888');
+
                 this.addMarker(new google.maps.LatLng(coordinate[0], coordinate[1]), icon);
             }
         },
@@ -173,7 +195,8 @@ $(document).ready(function () {
                     for (i = 0; i < waypoints.length; i++) {
                         this.addMarker(
                             waypoints[i].location,
-                            'http://maps.google.com/mapfiles/ms/icons/red.png',
+                            this.getIcon('#888888'),
+//                            'http://maps.google.com/mapfiles/ms/icons/red.png',
                             coordinates[i][2] || ''
                         );
                     }
