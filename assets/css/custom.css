@@ -341,6 +341,7 @@ img.pano {
 .small-gallery img {
     border-right: 2px solid rgba(255,255,255,0);
     border-bottom: 2px solid rgba(255,255,255,0);
+    width: 100%;
 }
 
 .small-gallery span {
