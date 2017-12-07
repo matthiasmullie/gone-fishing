@@ -7,7 +7,7 @@ layout: page
 <div class="row no-margin main-bg">
     <div class="no-padding col-lg-9">
         {% for post in page.posts %}
-        <article itemscope itemtype="http://schema.org/BlogPosting" class="blog-post wide-post">
+        <article itemscope itemtype="https://schema.org/BlogPosting" class="blog-post wide-post">
             <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}">
             <meta itemprop="image" content="{{ site.url }}/photos/full/{{ post.image }}">
             <meta itemprop="thumbnailUrl" content="{{ site.url }}/photos/thumb/{{ post.image }}">

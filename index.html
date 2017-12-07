@@ -7,7 +7,7 @@ order: 0
 <div class="masonry row no-margin">
     {% for post in site.posts limit: 6 %}
         <div class="no-padding col-lg-4 col-md-6 col-xs-12">
-            <article itemscope itemtype="http://schema.org/BlogPosting" class="blog-post">
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="blog-post">
                 <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}">
                 <meta itemprop="image" content="{{ site.url }}/photos/full/{{ post.image }}">
                 <meta itemprop="thumbnailUrl" content="{{ site.url }}/photos/thumb/{{ post.image }}">
