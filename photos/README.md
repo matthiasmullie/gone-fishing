@@ -22,4 +22,7 @@ Usage: resize.sh <sourcedir> <targetdir> <width> <height>
 width & height are minima, so an image will match or exceed these bounds.
 E.g.: a 2000x1000 source image resized to 600x600 will result in 1200x600.
 
+Large: ./resize.sh ~/edited ~/large 1800 600
+Thumb: ./resize.sh ~/edited ~/thumb 600 600
+
 All images should be run through ImageOptim.
