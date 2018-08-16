@@ -70,6 +70,8 @@
         <meta property="og:latitude" content="{{ page.coordinate[0] }}">
         <meta property="og:longitude" content="{{ page.coordinate[1] }}">
     {% endif %}
+
+    {% include ads-pagelevel.html %}
 </head>
 
 <body class="page-{{ page.title | downcase | replace: ' ', '-' | url_encode }}">
