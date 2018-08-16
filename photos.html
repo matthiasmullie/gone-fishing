@@ -77,6 +77,15 @@ photos:
       title: Golden Gate Bridge, with USS Iowa passing through
 ---
 
+<div class="container">
+    <div class="alert alert-custom" role="alert" style="margin-top: 20px;">
+        <p>
+            Feel free to use these (watermarked) photos any way you want.
+            <a href="{{ site.baseurl }}/request-photo/" class="alert-link">Get in touch</a> if you want the original (not watermarked) file or a print.
+        </p>
+    </div>
+</div>
+
 <div class="gallery row no-margin">
     {% for photo in page.photos %}
     <div class="photo no-padding {% if forloop.first %}col-lg-6 col-md-8{% else %}col-lg-3 col-md-4{% endif %} col-sm-6 col-xs-12">
