@@ -116,6 +116,16 @@ blockquote {
     object-fit: cover;
 }
 
+.alert-custom {
+    color: #666;
+    background-color: rgba(224,139,29, 0.1);
+    border-color: rgba(224,139,29, 0.2);
+}
+
+.alert-custom .alert-link {
+    color: #e08b1d;
+}
+
 /* blog listing */
 .blog-post .post-footer h4, .blog-post .post-header h4 {
     font-size: 12px;
