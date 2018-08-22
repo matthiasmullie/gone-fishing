@@ -270,7 +270,18 @@ $(document).ready(function () {
                         titleSrc: function(item) {
                             var link = '/request-photo/#photo-' + item.el.attr('href').replace('/photos/full/', '');
                             return item.el.attr('title') +
-                                '<small>Looking for <a href="' + link + '">the original (non-watermarked) photo</a> or <a href="' + link + '">a print</a>?</small>';
+                                '<small>Looking for <a href="' + link + '" class="print-link">the original (non-watermarked) photo</a> or <a href="' + link + '" class="print-link">a print</a>?</small>';
+                        }
+                    },
+                    callbacks: {
+                        updateStatus: function(data) {
+                            if (data.status !== 'ready') {
+                                return;
+                            }
+
+                            var link = $('.print-link').attr('href');
+                            $('.mfp-content').find('.print-button').remove();
+                            $('.mfp-content').append('<a href="' + link + '" class="print-button">Get a print</a>');
                         }
                     }
                 });

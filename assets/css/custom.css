@@ -344,6 +344,15 @@ img.pano {
     }
 }
 
+.mfp-content .print-button {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #e08b1d;
+    color: #fff;
+    padding: 10px 15px;
+}
+
 .post-content ul {
     padding-left: 20px;
 }
