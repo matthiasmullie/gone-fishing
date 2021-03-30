@@ -15,15 +15,23 @@ markdown: kramdown
 theme: minima
 paginate: 10
 paginate_path: "/travels/page:num/"
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
   - jekyll-sitemap
+# Exclude from processing.
 exclude:
-  - travels/_posts/*.wip
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.config.js"
+  - package*.json
+  - travels/_posts/*.wip
 
 permalink: /:categories/:title/
 
