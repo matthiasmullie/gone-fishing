@@ -100,6 +100,6 @@ order: 3
 {% assign vossemeren = '' | split: '' | push: 51.255469 | push: 5.327299 %}
 {% assign home = '' | split: '' | push: 50.809488 | push: 3.324494 %}
 
-{% assign coordinates = site.posts | map: 'coordinate' | where_exp: 'coordinate', 'coordinate != null' | push: swaziland | push: durban | push: ardeche | push: chamonix | push: vannes | push: paris | push: bardolino | push: venice | push: leeuwarden | push: lapineda | push: berlin | push: luxemburg | push: columbia | push: phoenix | push: leuven | push: dehaan | push: vielsalm | push: mouzaive | push: vossemeren | push: home %}
+{% assign coordinates = site.posts | map: 'coordinate' | where_exp: 'coordinate', 'coordinate != null' | push: swaziland | push: durban | push: ardeche | push: chamonix | push: vannes | push: bardolino | push: venice | push: leeuwarden | push: lapineda | push: berlin | push: luxemburg | push: columbia | push: phoenix | push: leuven | push: dehaan | push: vielsalm | push: mouzaive | push: vossemeren | push: home %}
 <div id="map" data-markers="{{ coordinates | jsonify | replace: '"', '&quot;' }}" data-center="[20, 0]" data-zoom="3"></div>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
