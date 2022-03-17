@@ -54,7 +54,15 @@ order: -1
                 </div>
             </div>
 
-            <form action="http://getsimpleform.com/messages?form_api_token=c900d9cf0042dbe6481faecc23e514fd" method="post" class="form">
+            <div id="submitsuccess" class="alert alert-success" role="alert" style="display: none;">
+                <p>Thank you for submitting your message!</p>
+            </div>
+
+            <div id="submiterror" class="alert alert-danger" role="alert" style="display: none;">
+                <p>Something went wrong! Please contact me via the email address listed on <a href="https://github.com/matthiasmullie/">my GitHub profile</a>.</p>
+            </div>
+
+            <form id="contactform" action="#" method="post" class="form">
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
                         <h3>Request</h3>
@@ -115,6 +123,33 @@ order: -1
                     } else if (selected === 'request-print') {
                         $textarea.attr('placeholder', 'Please provide your address, desired dimensions and finish (poster, canvas, framed, ...)');
                     }
+                });
+
+                var $form = $('#contactform');
+
+                $form.submit(function () {
+                    var action = 'https://post-to-email.herokuapp.com/?SUBJECT=' + encodeURIComponent('[gone-fishing.net] Request photo') + '&SENDER=' + encodeURIComponent($form.find('[name=email]').val());
+
+                    // hide form & success/error messages while submitting
+                    $('#submitsuccess, #submiterror').slideUp();
+                    $form.slideUp();
+
+                    // submit form
+                    $.post(action, $form.serialize()).then(
+                        function() {
+                            // show form again, with fields blanked out, and show success message
+                            $form.slideDown();
+                            $form.find('input:not([type=submit]):not(type=radio]):not(type=checkbox]), textarea').val('');
+                            $('#submitsuccess').slideDown();
+                        },
+                        function() {
+                            // display form again and show error message
+                            $form.slideDown();
+                            $('#submiterror').slideDown();
+                        }
+                    );
+
+                    return false;
                 });
             </script>
         </div>
