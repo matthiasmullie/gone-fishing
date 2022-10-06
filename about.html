@@ -135,6 +135,8 @@ order: 3
 {% assign vielsalm = '' | split: '' | push: 50.284017 | push: 5.914690 %}
 {% assign mouzaive = '' | split: '' | push: 49.853790 | push: 4.963180 %}
 {% assign vossemeren = '' | split: '' | push: 51.255469 | push: 5.327299 %}
+{% assign larochelle = '' | split: '' | push: 46.200561 | push: -1.095366 %}
+{% assign lacdeleaudheure = '' | split: '' | push: 50.190699 | push: 4.352376 %}
 {% assign home = '' | split: '' | push: 50.809488 | push: 3.324494 %}
 
 {% assign coordinates = site.posts | map: 'coordinate' | where_exp: 'coordinate', 'coordinate != null' | push: swaziland | push: durban | push: ardeche | push: chamonix | push: vannes | push: bardolino | push: venice | push: leeuwarden | push: lapineda | push: berlin | push: luxemburg | push: columbia | push: phoenix | push: leuven | push: dehaan | push: vielsalm | push: mouzaive | push: vossemeren | push: home %}
