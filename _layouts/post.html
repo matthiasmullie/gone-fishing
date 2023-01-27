@@ -73,7 +73,9 @@ image:
                              {% if page.coordinate %}data-markers="[{{ page.coordinate | jsonify | replace: '"', '&quot;' }}]" data-center="{{ page.coordinate | jsonify }}"{% endif %}
                              {% if page.itinerary %}data-directions="{{ page.itinerary | jsonify | replace: '"', '&quot;' }}"{% endif %}
                         ></div>
-                        <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
+                        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+                        <script src="{{ site.baseurl }}/assets/js/map.js"></script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}&callback=initMap&v=weekly" defer></script>
 
                         {% if page.itinerary %}
                         <div class="pull-right">

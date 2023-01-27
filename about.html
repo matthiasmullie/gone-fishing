@@ -157,4 +157,6 @@ order: 3
 
 {% assign coordinates = site.posts | map: 'coordinate' | where_exp: 'coordinate', 'coordinate != null' | push: swaziland | push: durban | push: ardeche | push: chamonix | push: vannes | push: bardolino | push: venice | push: leeuwarden | push: lapineda | push: berlin | push: luxemburg | push: columbia | push: phoenix | push: leuven | push: dehaan | push: vielsalm | push: mouzaive | push: vossemeren | push: budapest | push: florence | push: rome | push: wingene | push: maastricht | push: saintpaul | push: strasbourg | push: stockholm | push: loscristianos | push: atlanta | push: epernay | push: genk | push: aubagne | push: rotterdam | push: nieuwpoort | push: larochelle | push: lacdeleaudheure | push: home %}
 <div id="map" data-markers="{{ coordinates | jsonify | replace: '"', '&quot;' }}" data-center="[20, 0]" data-zoom="3"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="{{ site.baseurl }}/assets/js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ site.maps.key }}&callback=initMap&v=weekly" defer></script>
