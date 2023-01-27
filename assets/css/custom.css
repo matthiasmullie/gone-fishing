@@ -535,3 +535,9 @@ img.pano {
     width: 100%;
     object-fit: cover;
 }
+
+/* Contact form honeypot */
+#contactform textarea[name="address"] {
+    position: absolute;
+    left: -999999999px;
+}
